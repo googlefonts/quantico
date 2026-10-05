@@ -1,0 +1,10461 @@
+{
+.formatVersion = 3;
+featurePrefixes = (
+{
+code = "table OS/2 {
+    WeightClass 700;
+} OS/2;";
+name = WeightClassOverride;
+},
+);
+customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = fsType;
+value = ();
+},
+{
+name = panose;
+value = (2,0,0,0,0,0,0,0,0,0);
+},
+{
+name = "Name Table Entry";
+value = "4; Quantico-Bold";
+}
+);
+date = "2011-12-13 14:20:07 +0000";
+familyName = Quantico;
+fontMaster = (
+{
+customParameters = (
+{
+name = typoAscender;
+value = 1063;
+},
+{
+name = typoDescender;
+value = -367;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1063;
+},
+{
+name = winDescent;
+value = 367;
+},
+{
+name = hheaAscender;
+value = 1063;
+},
+{
+name = hheaDescender;
+value = -367;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -75;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = strikeoutSize;
+value = 50;
+},
+{
+name = strikeoutPosition;
+value = 250;
+},
+{
+name = subscriptXSize;
+value = 700;
+},
+{
+name = subscriptYSize;
+value = 650;
+},
+{
+name = subscriptXOffset;
+value = 0;
+},
+{
+name = subscriptYOffset;
+value = 140;
+},
+{
+name = superscriptXSize;
+value = 700;
+},
+{
+name = superscriptYSize;
+value = 650;
+},
+{
+name = superscriptXOffset;
+value = 0;
+},
+{
+name = superscriptYOffset;
+value = 477;
+}
+);
+id = "babelfont/sfd/master/Regular";
+metricValues = (
+{
+},
+{
+pos = 800;
+},
+{
+pos = -200;
+},
+{
+pos = 500;
+},
+{
+pos = 700;
+}
+);
+name = Bold;
+visible = 1;
+}
+);
+glyphs = (
+{
+category = Letter;
+glyphname = .notdef;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+width = 260;
+}
+);
+},
+{
+glyphname = .null;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+width = 0;
+}
+);
+},
+{
+category = Letter;
+glyphname = nonmarkingreturn;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+width = 333;
+}
+);
+},
+{
+category = Letter;
+glyphname = space;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+width = 260;
+}
+);
+unicode = 32;
+},
+{
+category = Letter;
+glyphname = exclam;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,0,l),
+(285,0,l),
+(285,190,l),
+(95,190,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(130,288,l),
+(250,288,l),
+(276,730,l),
+(104,730,l)
+);
+}
+);
+width = 380;
+}
+);
+unicode = 33;
+},
+{
+category = Letter;
+glyphname = quotedbl;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,418,l),
+(195,418,l),
+(215,730,l),
+(65,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(305,418,l),
+(415,418,l),
+(435,730,l),
+(285,730,l)
+);
+}
+);
+width = 500;
+}
+);
+unicode = 34;
+},
+{
+category = Letter;
+glyphname = numbersign;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(538,72,o),
+(545,165,q),
+(709,165,l),
+(709,267,l),
+(554,267,l),
+(565,384,o),
+(570,441,q),
+(709,441,l),
+(709,543,l),
+(579,543,l),
+(595,719,l),
+(472,719,l),
+(455,543,l),
+(331,543,l),
+(347,719,l),
+(223,719,l),
+(222,700,o),
+(207,543,q),
+(55,543,l),
+(55,441,l),
+(198,441,l),
+(193,378,o),
+(182,267,q),
+(55,267,l),
+(55,165,l),
+(173,165,l),
+(157,-19,l),
+(281,-19,l),
+(297,165,l),
+(422,165,l),
+(405,-19,l),
+(529,-19,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(322,441,l),
+(447,441,l),
+(440,369,o),
+(430,267,q),
+(306,267,l)
+);
+}
+);
+width = 764;
+}
+);
+unicode = 35;
+},
+{
+category = Letter;
+glyphname = dollar;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(391,-123,l),
+(391,-5,l),
+(454,-5,l),
+(570,62,l),
+(570,351,l),
+(454,418,l),
+(225,418,l),
+(225,585,l),
+(430,585,l),
+(430,505,l),
+(570,505,l),
+(570,638,l),
+(454,705,l),
+(391,705,l),
+(391,823,l),
+(271,823,l),
+(271,705,l),
+(201,705,l),
+(85,638,l),
+(85,355,l),
+(201,288,l),
+(430,288,l),
+(430,115,l),
+(215,115,l),
+(215,195,l),
+(75,195,l),
+(75,62,l),
+(191,-5,l),
+(271,-5,l),
+(271,-123,l)
+);
+}
+);
+width = 655;
+}
+);
+unicode = 36;
+},
+{
+category = Letter;
+glyphname = percent;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(440,424,l),
+(440,643,l),
+(324,710,l),
+(191,710,l),
+(75,643,l),
+(75,424,l),
+(191,357,l),
+(324,357,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(196,599,l),
+(319,599,l),
+(319,468,l),
+(196,468,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(692,710,l),
+(179,-10,l),
+(309,-10,l),
+(822,710,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(561,276,l),
+(561,57,l),
+(677,-10,l),
+(810,-10,l),
+(926,57,l),
+(926,276,l),
+(810,343,l),
+(677,343,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(805,101,l),
+(682,101,l),
+(682,232,l),
+(805,232,l)
+);
+}
+);
+width = 1001;
+}
+);
+unicode = 37;
+},
+{
+category = Letter;
+glyphname = ampersand;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(640,422,l),
+(542,422,l),
+(426,355,l),
+(426,115,l),
+(225,115,l),
+(225,302,l),
+(370,302,l),
+(370,422,l),
+(225,422,l),
+(225,585,l),
+(386,585,l),
+(386,495,l),
+(526,495,l),
+(526,638,l),
+(410,705,l),
+(201,705,l),
+(85,638,l),
+(85,413,l),
+(172,363,l),
+(172,361,l),
+(85,311,l),
+(85,62,l),
+(201,-5,l),
+(450,-5,l),
+(566,62,l),
+(566,302,l),
+(640,302,l)
+);
+}
+);
+width = 665;
+}
+);
+unicode = 38;
+},
+{
+category = Letter;
+glyphname = quotesingle;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,418,l),
+(195,418,l),
+(215,730,l),
+(65,730,l)
+);
+}
+);
+width = 280;
+}
+);
+unicode = 39;
+},
+{
+category = Letter;
+glyphname = parenleft;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,630,l),
+(328,630,l),
+(328,730,l),
+(201,730,l),
+(85,663,l),
+(85,-133,l),
+(201,-200,l),
+(328,-200,l),
+(328,-100,l),
+(215,-100,l)
+);
+}
+);
+width = 383;
+}
+);
+unicode = 40;
+},
+{
+category = Letter;
+glyphname = parenright;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,-100,l),
+(55,-100,l),
+(55,-200,l),
+(182,-200,l),
+(298,-133,l),
+(298,663,l),
+(182,730,l),
+(55,730,l),
+(55,630,l),
+(168,630,l)
+);
+}
+);
+width = 383;
+}
+);
+unicode = 41;
+},
+{
+category = Letter;
+glyphname = asterisk;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(325,376,l),
+(416,236,l),
+(519,310,l),
+(413,440,l),
+(574,483,l),
+(535,604,l),
+(379,543,l),
+(388,710,l),
+(261,710,l),
+(270,543,l),
+(114,604,l),
+(75,483,l),
+(236,440,l),
+(130,310,l),
+(233,236,l),
+(324,376,l)
+);
+}
+);
+width = 649;
+}
+);
+unicode = 42;
+},
+{
+category = Letter;
+glyphname = plus;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(45,327,l),
+(45,193,l),
+(238,193,l),
+(238,0,l),
+(372,0,l),
+(372,193,l),
+(565,193,l),
+(565,327,l),
+(372,327,l),
+(372,520,l),
+(238,520,l),
+(238,327,l)
+);
+}
+);
+width = 610;
+}
+);
+unicode = 43;
+},
+{
+category = Letter;
+glyphname = comma;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,-200,l),
+(177,-200,l),
+(285,108,l),
+(285,190,l),
+(95,190,l)
+);
+}
+);
+width = 380;
+}
+);
+unicode = 44;
+},
+{
+category = Letter;
+glyphname = hyphen;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,198,l),
+(383,198,l),
+(383,325,l),
+(65,325,l)
+);
+}
+);
+width = 448;
+}
+);
+unicode = 45;
+},
+{
+category = Letter;
+glyphname = period;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,0,l),
+(285,0,l),
+(285,190,l),
+(95,190,l)
+);
+}
+);
+width = 380;
+}
+);
+unicode = 46;
+},
+{
+category = Letter;
+glyphname = slash;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(25,-20,l),
+(155,-20,l),
+(391,720,l),
+(261,720,l)
+);
+}
+);
+width = 416;
+}
+);
+unicode = 47;
+},
+{
+category = Letter;
+glyphname = zero;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(590,62,l),
+(590,638,l),
+(474,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(474,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(450,585,l),
+(450,115,l),
+(225,115,l)
+);
+}
+);
+width = 675;
+}
+);
+unicode = 48;
+},
+{
+category = Letter;
+glyphname = one;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,466,l),
+(245,558,l),
+(245,120,l),
+(85,120,l),
+(85,0,l),
+(545,0,l),
+(545,120,l),
+(385,120,l),
+(385,700,l),
+(265,700,l),
+(85,597,l)
+);
+}
+);
+width = 580;
+}
+);
+unicode = 49;
+},
+{
+category = Letter;
+glyphname = two;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,120,l),
+(225,276,l),
+(439,276,l),
+(555,343,l),
+(555,633,l),
+(439,700,l),
+(201,700,l),
+(85,633,l),
+(85,490,l),
+(225,490,l),
+(225,580,l),
+(415,580,l),
+(415,396,l),
+(201,396,l),
+(85,329,l),
+(85,0,l),
+(555,0,l),
+(555,120,l)
+);
+}
+);
+width = 640;
+}
+);
+unicode = 50;
+},
+{
+category = Letter;
+glyphname = three;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,-5,l),
+(576,62,l),
+(576,311,l),
+(489,361,l),
+(489,363,l),
+(576,413,l),
+(576,638,l),
+(460,705,l),
+(201,705,l),
+(85,638,l),
+(85,495,l),
+(225,495,l),
+(225,585,l),
+(436,585,l),
+(436,422,l),
+(261,422,l),
+(261,302,l),
+(436,302,l),
+(436,115,l),
+(225,115,l),
+(225,205,l),
+(85,205,l),
+(85,62,l),
+(201,-5,l)
+);
+}
+);
+width = 661;
+}
+);
+unicode = 51;
+},
+{
+category = Letter;
+glyphname = four;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(505,155,l),
+(591,155,l),
+(591,268,l),
+(505,268,l),
+(505,700,l),
+(382,700,l),
+(35,255,l),
+(35,155,l),
+(367,155,l),
+(367,0,l),
+(505,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(190,268,l),
+(190,270,l),
+(365,494,l),
+(367,494,l),
+(367,268,l)
+);
+}
+);
+width = 636;
+}
+);
+unicode = 52;
+},
+{
+category = Letter;
+glyphname = five;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(245,580,l),
+(560,580,l),
+(560,700,l),
+(105,700,l),
+(105,326,l),
+(430,326,l),
+(430,115,l),
+(225,115,l),
+(225,205,l),
+(85,205,l),
+(85,62,l),
+(201,-5,l),
+(454,-5,l),
+(570,62,l),
+(570,379,l),
+(454,446,l),
+(245,446,l)
+);
+}
+);
+width = 655;
+}
+);
+unicode = 53;
+},
+{
+category = Letter;
+glyphname = six;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(420,585,l),
+(420,495,l),
+(560,495,l),
+(560,638,l),
+(444,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(444,-5,l),
+(560,62,l),
+(560,358,l),
+(444,425,l),
+(296,425,l),
+(225,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,305,l),
+(420,305,l),
+(420,115,l),
+(225,115,l)
+);
+}
+);
+width = 645;
+}
+);
+unicode = 54;
+},
+{
+category = Letter;
+glyphname = seven;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(298,0,l),
+(580,610,l),
+(580,700,l),
+(55,700,l),
+(55,490,l),
+(195,490,l),
+(195,580,l),
+(420,580,l),
+(420,578,l),
+(151,0,l)
+);
+}
+);
+width = 625;
+}
+);
+unicode = 55;
+},
+{
+category = Letter;
+glyphname = eight;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,115,l),
+(225,302,l),
+(430,302,l),
+(430,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,422,l),
+(225,585,l),
+(430,585,l),
+(430,422,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(454,-5,l),
+(570,62,l),
+(570,311,l),
+(483,361,l),
+(483,363,l),
+(570,413,l),
+(570,638,l),
+(454,705,l),
+(201,705,l),
+(85,638,l),
+(85,413,l),
+(172,363,l),
+(172,361,l),
+(85,311,l),
+(85,62,l),
+(185,-5,l)
+);
+}
+);
+width = 655;
+}
+);
+unicode = 56;
+},
+{
+category = Letter;
+glyphname = nine;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(420,115,l),
+(225,115,l),
+(225,205,l),
+(85,205,l),
+(85,62,l),
+(201,-5,l),
+(444,-5,l),
+(560,62,l),
+(560,638,l),
+(444,705,l),
+(201,705,l),
+(85,638,l),
+(85,342,l),
+(201,275,l),
+(349,275,l),
+(420,316,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(420,395,l),
+(225,395,l),
+(225,585,l),
+(420,585,l)
+);
+}
+);
+width = 645;
+}
+);
+unicode = 57;
+},
+{
+category = Letter;
+glyphname = colon;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,0,l),
+(285,0,l),
+(285,190,l),
+(95,190,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(95,330,l),
+(285,330,l),
+(285,520,l),
+(95,520,l)
+);
+}
+);
+width = 380;
+}
+);
+unicode = 58;
+},
+{
+category = Letter;
+glyphname = semicolon;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,-200,l),
+(177,-200,l),
+(285,108,l),
+(285,190,l),
+(95,190,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(95,330,l),
+(285,330,l),
+(285,520,l),
+(95,520,l)
+);
+}
+);
+width = 380;
+}
+);
+unicode = 59;
+},
+{
+category = Letter;
+glyphname = less;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(575,501,l),
+(55,321,l),
+(55,179,l),
+(575,-1,l),
+(575,133,l),
+(220,249,l),
+(220,251,l),
+(575,367,l)
+);
+}
+);
+width = 660;
+}
+);
+unicode = 60;
+},
+{
+category = Letter;
+glyphname = equal;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(605,198,l),
+(85,198,l),
+(85,74,l),
+(605,74,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(605,426,l),
+(85,426,l),
+(85,302,l),
+(605,302,l)
+);
+}
+);
+width = 690;
+}
+);
+unicode = 61;
+},
+{
+category = Letter;
+glyphname = greater;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,367,l),
+(440,251,l),
+(440,249,l),
+(85,133,l),
+(85,-1,l),
+(605,179,l),
+(605,321,l),
+(85,501,l)
+);
+}
+);
+width = 660;
+}
+);
+unicode = 62;
+},
+{
+category = Letter;
+glyphname = question;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(317,376,l),
+(389,376,l),
+(505,443,l),
+(505,663,l),
+(389,730,l),
+(201,730,l),
+(85,663,l),
+(85,520,l),
+(225,520,l),
+(225,610,l),
+(365,610,l),
+(365,496,l),
+(304,496,l),
+(188,429,l),
+(198,288,l),
+(308,288,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(158,0,l),
+(348,0,l),
+(348,190,l),
+(158,190,l)
+);
+}
+);
+width = 590;
+}
+);
+unicode = 63;
+},
+{
+category = Letter;
+glyphname = at;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(819,-141,l),
+(819,-31,l),
+(215,-31,l),
+(215,595,l),
+(805,595,l),
+(805,147,l),
+(687,147,l),
+(728,537,l),
+(662,537,l),
+(586,496,l),
+(520,537,l),
+(439,537,l),
+(316,470,l),
+(277,104,l),
+(386,37,l),
+(467,37,l),
+(543,78,l),
+(609,37,l),
+(819,37,l),
+(935,104,l),
+(935,638,l),
+(819,705,l),
+(201,705,l),
+(85,638,l),
+(85,-74,l),
+(201,-141,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(447,420,l),
+(578,420,l),
+(551,154,l),
+(420,154,l)
+);
+}
+);
+width = 1020;
+}
+);
+unicode = 64;
+},
+{
+category = Letter;
+glyphname = A;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(409,700,l),
+(265,700,l),
+(15,0,l),
+(153,0,l),
+(206,151,l),
+(468,151,l),
+(521,0,l),
+(659,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,524,l),
+(338,524,l),
+(425,271,l),
+(248,271,l)
+);
+}
+);
+width = 674;
+}
+);
+unicode = 65;
+},
+{
+category = Letter;
+glyphname = B;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(580,413,l),
+(580,633,l),
+(464,700,l),
+(85,700,l),
+(85,0,l),
+(464,0,l),
+(580,67,l),
+(580,311,l),
+(493,361,l),
+(493,363,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,302,l),
+(440,302,l),
+(440,120,l),
+(225,120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,580,l),
+(440,580,l),
+(440,422,l),
+(225,422,l)
+);
+}
+);
+width = 665;
+}
+);
+unicode = 66;
+},
+{
+category = Letter;
+glyphname = C;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,205,l),
+(460,115,l),
+(225,115,l),
+(225,585,l),
+(460,585,l),
+(460,495,l),
+(600,495,l),
+(600,638,l),
+(484,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(484,-5,l),
+(600,62,l),
+(600,205,l)
+);
+}
+);
+width = 675;
+}
+);
+unicode = 67;
+},
+{
+category = Letter;
+glyphname = D;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,67,l),
+(630,633,l),
+(514,700,l),
+(85,700,l),
+(85,0,l),
+(514,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,580,l),
+(490,580,l),
+(490,120,l),
+(225,120,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 68;
+},
+{
+category = Letter;
+glyphname = E;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,300,l),
+(444,300,l),
+(444,420,l),
+(225,420,l),
+(225,580,l),
+(504,580,l),
+(504,700,l),
+(85,700,l),
+(85,0,l),
+(504,0,l),
+(504,120,l),
+(225,120,l)
+);
+}
+);
+width = 549;
+}
+);
+unicode = 69;
+},
+{
+category = Letter;
+glyphname = F;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,300,l),
+(454,300,l),
+(454,420,l),
+(225,420,l),
+(225,580,l),
+(514,580,l),
+(514,700,l),
+(85,700,l),
+(85,0,l),
+(225,0,l)
+);
+}
+);
+width = 539;
+}
+);
+unicode = 70;
+},
+{
+category = Letter;
+glyphname = G;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(335,245,l),
+(450,245,l),
+(450,115,l),
+(215,115,l),
+(215,585,l),
+(450,585,l),
+(450,495,l),
+(590,495,l),
+(590,638,l),
+(474,705,l),
+(191,705,l),
+(75,638,l),
+(75,62,l),
+(191,-5,l),
+(474,-5,l),
+(590,62,l),
+(590,365,l),
+(335,365,l)
+);
+}
+);
+width = 665;
+}
+);
+unicode = 71;
+},
+{
+category = Letter;
+glyphname = H;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,300,l),
+(500,300,l),
+(500,0,l),
+(640,0,l),
+(640,700,l),
+(500,700,l),
+(500,420,l),
+(225,420,l),
+(225,700,l),
+(85,700,l),
+(85,0,l),
+(225,0,l)
+);
+}
+);
+width = 725;
+}
+);
+unicode = 72;
+},
+{
+category = Letter;
+glyphname = I;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,700,l),
+(85,700,l)
+);
+}
+);
+width = 310;
+}
+);
+unicode = 73;
+},
+{
+category = Letter;
+glyphname = J;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(320,115,l),
+(155,115,l),
+(155,255,l),
+(15,255,l),
+(15,62,l),
+(131,-5,l),
+(344,-5,l),
+(460,62,l),
+(460,700,l),
+(320,700,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 74;
+},
+{
+category = Letter;
+glyphname = K;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,191,l),
+(294,272,l),
+(517,0,l),
+(685,0,l),
+(378,372,l),
+(654,700,l),
+(488,700,l),
+(227,385,l),
+(225,385,l),
+(225,700,l),
+(85,700,l)
+);
+}
+);
+width = 690;
+}
+);
+unicode = 75;
+},
+{
+category = Letter;
+glyphname = L;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(464,0,l),
+(464,120,l),
+(225,120,l),
+(225,700,l),
+(85,700,l)
+);
+}
+);
+width = 489;
+}
+);
+unicode = 76;
+},
+{
+category = Letter;
+glyphname = M;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(674,0,l),
+(809,0,l),
+(809,700,l),
+(624,700,l),
+(449,185,l),
+(447,185,l),
+(271,700,l),
+(85,700,l),
+(85,0,l),
+(220,0,l),
+(220,468,l),
+(222,468,l),
+(381,0,l),
+(514,0,l),
+(672,462,l),
+(674,462,l)
+);
+}
+);
+width = 894;
+}
+);
+unicode = 77;
+},
+{
+category = Letter;
+glyphname = N;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,453,l),
+(227,453,l),
+(529,0,l),
+(660,0,l),
+(660,700,l),
+(520,700,l),
+(520,247,l),
+(518,247,l),
+(216,700,l),
+(85,700,l),
+(85,0,l),
+(225,0,l)
+);
+}
+);
+width = 745;
+}
+);
+unicode = 78;
+},
+{
+category = Letter;
+glyphname = O;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,62,l),
+(630,638,l),
+(514,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(490,585,l),
+(490,115,l),
+(225,115,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 79;
+},
+{
+category = Letter;
+glyphname = P;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,254,l),
+(454,254,l),
+(570,321,l),
+(570,633,l),
+(454,700,l),
+(85,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,580,l),
+(430,580,l),
+(430,374,l),
+(225,374,l)
+);
+}
+);
+width = 625;
+}
+);
+unicode = 80;
+},
+{
+category = Letter;
+glyphname = Q;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(490,585,l),
+(490,115,l),
+(225,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(364,-5,l),
+(474,-200,l),
+(627,-200,l),
+(514,-5,l),
+(630,62,l),
+(630,638,l),
+(514,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 81;
+},
+{
+category = Letter;
+glyphname = R;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(616,0,l),
+(464,264,l),
+(580,331,l),
+(580,633,l),
+(464,700,l),
+(85,700,l),
+(85,0,l),
+(225,0,l),
+(225,264,l),
+(312,264,l),
+(462,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,580,l),
+(440,580,l),
+(440,384,l),
+(225,384,l)
+);
+}
+);
+width = 665;
+}
+);
+unicode = 82;
+},
+{
+category = Letter;
+glyphname = S;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,355,l),
+(201,288,l),
+(430,288,l),
+(430,115,l),
+(215,115,l),
+(215,195,l),
+(75,195,l),
+(75,62,l),
+(191,-5,l),
+(454,-5,l),
+(570,62,l),
+(570,351,l),
+(454,418,l),
+(225,418,l),
+(225,585,l),
+(430,585,l),
+(430,505,l),
+(570,505,l),
+(570,638,l),
+(454,705,l),
+(201,705,l),
+(85,638,l)
+);
+}
+);
+width = 655;
+}
+);
+unicode = 83;
+},
+{
+category = Letter;
+glyphname = T;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(354,580,l),
+(543,580,l),
+(543,700,l),
+(25,700,l),
+(25,580,l),
+(214,580,l),
+(214,0,l),
+(354,0,l)
+);
+}
+);
+width = 568;
+}
+);
+unicode = 84;
+},
+{
+category = Letter;
+glyphname = U;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,700,l),
+(490,125,l),
+(225,125,l),
+(225,700,l),
+(85,700,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l),
+(630,62,l),
+(630,700,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 85;
+},
+{
+category = Letter;
+glyphname = V;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(669,700,l),
+(527,700,l),
+(344,171,l),
+(342,171,l),
+(157,700,l),
+(15,700,l),
+(265,0,l),
+(419,0,l)
+);
+}
+);
+width = 684;
+}
+);
+unicode = 86;
+},
+{
+category = Letter;
+glyphname = W;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(935,700,l),
+(799,700,l),
+(681,222,l),
+(679,222,l),
+(551,700,l),
+(409,700,l),
+(281,220,l),
+(279,220,l),
+(161,700,l),
+(25,700,l),
+(203,0,l),
+(353,0,l),
+(479,473,l),
+(481,473,l),
+(607,0,l),
+(757,0,l)
+);
+}
+);
+width = 960;
+}
+);
+unicode = 87;
+},
+{
+category = Letter;
+glyphname = X;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(25,0,l),
+(183,0,l),
+(330,233,l),
+(478,0,l),
+(636,0,l),
+(409,358,l),
+(626,700,l),
+(468,700,l),
+(330,483,l),
+(193,700,l),
+(35,700,l),
+(251,358,l)
+);
+}
+);
+width = 661;
+}
+);
+unicode = 88;
+},
+{
+category = Letter;
+glyphname = Y;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,0,l),
+(380,0,l),
+(380,298,l),
+(606,700,l),
+(454,700,l),
+(311,438,l),
+(309,438,l),
+(167,700,l),
+(15,700,l),
+(240,299,l)
+);
+}
+);
+width = 621;
+}
+);
+unicode = 89;
+},
+{
+category = Letter;
+glyphname = Z;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,580,l),
+(360,580,l),
+(360,578,l),
+(45,90,l),
+(45,0,l),
+(540,0,l),
+(540,120,l),
+(225,120,l),
+(225,122,l),
+(540,610,l),
+(540,700,l),
+(65,700,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 90;
+},
+{
+category = Letter;
+glyphname = bracketleft;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(215,630,l),
+(318,630,l),
+(318,730,l),
+(85,730,l),
+(85,-200,l),
+(318,-200,l),
+(318,-100,l),
+(215,-100,l)
+);
+}
+);
+width = 373;
+}
+);
+unicode = 91;
+},
+{
+category = Letter;
+glyphname = backslash;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(155,720,l),
+(25,720,l),
+(261,-20,l),
+(391,-20,l)
+);
+}
+);
+width = 416;
+}
+);
+unicode = 92;
+},
+{
+category = Letter;
+glyphname = bracketright;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(158,-100,l),
+(55,-100,l),
+(55,-200,l),
+(288,-200,l),
+(288,730,l),
+(55,730,l),
+(55,630,l),
+(158,630,l)
+);
+}
+);
+width = 373;
+}
+);
+unicode = 93;
+},
+{
+category = Letter;
+glyphname = asciicircum;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,380,l),
+(306,573,l),
+(307,573,l),
+(420,380,l),
+(567,380,l),
+(367,700,l),
+(245,700,l),
+(45,380,l)
+);
+}
+);
+width = 612;
+}
+);
+unicode = 94;
+},
+{
+category = Letter;
+glyphname = underscore;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(627,-86,l),
+(-25,-86,l),
+(-25,-200,l),
+(627,-200,l)
+);
+}
+);
+width = 602;
+}
+);
+unicode = 95;
+},
+{
+category = Letter;
+glyphname = grave;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(335,718,l),
+(165,718,l),
+(309,590,l),
+(429,590,l)
+);
+}
+);
+width = 500;
+}
+);
+unicode = 96;
+},
+{
+category = Letter;
+glyphname = a;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,197,l),
+(333,197,l),
+(333,110,l),
+(192,110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(171,-5,l),
+(262,-5,l),
+(333,36,l),
+(404,-5,l),
+(470,-5,l),
+(470,433,l),
+(354,500,l),
+(105,500,l),
+(105,383,l),
+(333,383,l),
+(333,302,l),
+(171,302,l),
+(55,235,l),
+(55,62,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 97;
+},
+{
+category = Letter;
+glyphname = b;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(283,505,l),
+(212,464,l),
+(212,730,l),
+(75,730,l),
+(75,-5,l),
+(141,-5,l),
+(212,36,l),
+(283,-5,l),
+(414,-5,l),
+(530,62,l),
+(530,438,l),
+(414,505,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(393,388,l),
+(393,112,l),
+(212,112,l)
+);
+}
+);
+width = 605;
+}
+);
+unicode = 98;
+},
+{
+category = Letter;
+glyphname = c;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,383,l),
+(460,383,l),
+(460,500,l),
+(191,500,l),
+(75,433,l),
+(75,67,l),
+(191,0,l),
+(460,0,l),
+(460,117,l),
+(212,117,l)
+);
+}
+);
+width = 515;
+}
+);
+unicode = 99;
+},
+{
+category = Letter;
+glyphname = d;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(322,-5,l),
+(393,36,l),
+(417,-5,l),
+(530,-5,l),
+(530,730,l),
+(393,730,l),
+(393,464,l),
+(322,505,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(393,112,l),
+(212,112,l),
+(212,388,l),
+(393,388,l)
+);
+}
+);
+width = 605;
+}
+);
+unicode = 100;
+},
+{
+category = Letter;
+glyphname = e;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,117,l),
+(212,117,l),
+(212,199,l),
+(490,199,l),
+(490,438,l),
+(374,505,l),
+(191,505,l),
+(75,438,l),
+(75,67,l),
+(191,0,l),
+(490,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(353,388,l),
+(353,302,l),
+(212,302,l)
+);
+}
+);
+width = 565;
+}
+);
+unicode = 101;
+},
+{
+category = Letter;
+glyphname = f;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,383,l),
+(127,383,l),
+(127,0,l),
+(264,0,l),
+(264,383,l),
+(374,383,l),
+(374,500,l),
+(264,500,l),
+(264,613,l),
+(374,613,l),
+(374,730,l),
+(243,730,l),
+(127,663,l),
+(127,500,l),
+(35,500,l)
+);
+}
+);
+width = 409;
+}
+);
+unicode = 102;
+},
+{
+category = Letter;
+glyphname = g;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(55,-138,l),
+(171,-205,l),
+(414,-205,l),
+(530,-138,l),
+(530,40,l),
+(414,107,l),
+(212,107,l),
+(212,172,l),
+(384,172,l),
+(500,239,l),
+(500,347,l),
+(439,383,l),
+(530,436,l),
+(530,500,l),
+(191,500,l),
+(75,433,l),
+(75,228,l),
+(146,187,l),
+(75,146,l),
+(75,56,l),
+(171,0,l),
+(55,-68,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(393,0,l),
+(393,-90,l),
+(192,-90,l),
+(192,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(363,388,l),
+(363,284,l),
+(212,284,l)
+);
+}
+);
+width = 585;
+}
+);
+unicode = 103;
+},
+{
+category = Letter;
+glyphname = h;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,0,l),
+(212,388,l),
+(393,388,l),
+(393,0,l),
+(530,0,l),
+(530,438,l),
+(414,505,l),
+(283,505,l),
+(212,464,l),
+(212,730,l),
+(75,730,l),
+(75,0,l)
+);
+}
+);
+width = 605;
+}
+);
+unicode = 104;
+},
+{
+category = Letter;
+glyphname = i;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(70,593,l),
+(217,593,l),
+(217,730,l),
+(70,730,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 105;
+},
+{
+category = Letter;
+glyphname = j;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(70,593,l),
+(217,593,l),
+(217,730,l),
+(70,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,-83,l),
+(-25,-83,l),
+(-25,-200,l),
+(96,-200,l),
+(212,-133,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 106;
+},
+{
+category = Letter;
+glyphname = k;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,730,l),
+(75,730,l),
+(75,0,l),
+(212,0,l),
+(212,108,l),
+(267,177,l),
+(397,0,l),
+(556,0,l),
+(347,277,l),
+(526,500,l),
+(369,500,l),
+(214,299,l),
+(212,299,l)
+);
+}
+);
+width = 551;
+}
+);
+unicode = 107;
+},
+{
+category = Letter;
+glyphname = l;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(191,0,l),
+(312,0,l),
+(312,117,l),
+(212,117,l),
+(212,730,l),
+(75,730,l),
+(75,67,l)
+);
+}
+);
+width = 327;
+}
+);
+unicode = 108;
+},
+{
+category = Letter;
+glyphname = m;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(778,438,l),
+(662,505,l),
+(566,505,l),
+(472,451,l),
+(379,505,l),
+(283,505,l),
+(212,464,l),
+(188,505,l),
+(75,505,l),
+(75,0,l),
+(212,0,l),
+(212,388,l),
+(358,388,l),
+(358,0,l),
+(495,0,l),
+(495,388,l),
+(641,388,l),
+(641,0,l),
+(778,0,l)
+);
+}
+);
+width = 853;
+}
+);
+unicode = 109;
+},
+{
+category = Letter;
+glyphname = n;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,438,l),
+(404,505,l),
+(283,505,l),
+(212,464,l),
+(188,505,l),
+(75,505,l),
+(75,0,l),
+(212,0,l),
+(212,388,l),
+(383,388,l),
+(383,0,l),
+(520,0,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 110;
+},
+{
+category = Letter;
+glyphname = o;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,62,l),
+(520,438,l),
+(404,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(404,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(383,388,l),
+(383,112,l),
+(212,112,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 111;
+},
+{
+category = Letter;
+glyphname = p;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(414,-5,l),
+(530,62,l),
+(530,438,l),
+(414,505,l),
+(283,505,l),
+(212,464,l),
+(188,505,l),
+(75,505,l),
+(75,-200,l),
+(212,-200,l),
+(212,36,l),
+(283,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(393,388,l),
+(393,112,l),
+(212,112,l)
+);
+}
+);
+width = 605;
+}
+);
+unicode = 112;
+},
+{
+category = Letter;
+glyphname = q;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(322,-5,l),
+(393,36,l),
+(393,-200,l),
+(530,-200,l),
+(530,505,l),
+(464,505,l),
+(393,464,l),
+(322,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(393,112,l),
+(212,112,l),
+(212,388,l),
+(393,388,l)
+);
+}
+);
+width = 605;
+}
+);
+unicode = 113;
+},
+{
+category = Letter;
+glyphname = r;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(384,383,l),
+(384,500,l),
+(283,500,l),
+(212,459,l),
+(188,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l),
+(212,383,l)
+);
+}
+);
+width = 409;
+}
+);
+unicode = 114;
+},
+{
+category = Letter;
+glyphname = s;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(471,246,l),
+(355,313,l),
+(212,313,l),
+(212,383,l),
+(461,383,l),
+(461,500,l),
+(191,500,l),
+(75,433,l),
+(75,261,l),
+(191,194,l),
+(334,194,l),
+(334,117,l),
+(75,117,l),
+(75,0,l),
+(355,0,l),
+(471,67,l)
+);
+}
+);
+width = 546;
+}
+);
+unicode = 115;
+},
+{
+category = Letter;
+glyphname = t;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,383,l),
+(127,383,l),
+(127,67,l),
+(243,0,l),
+(374,0,l),
+(374,117,l),
+(264,117,l),
+(264,383,l),
+(374,383,l),
+(374,500,l),
+(264,500,l),
+(264,663,l),
+(127,584,l),
+(127,500,l),
+(35,500,l)
+);
+}
+);
+width = 429;
+}
+);
+unicode = 116;
+},
+{
+category = Letter;
+glyphname = u;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,62,l),
+(191,-5,l),
+(312,-5,l),
+(383,36,l),
+(407,-5,l),
+(520,-5,l),
+(520,500,l),
+(383,500,l),
+(383,112,l),
+(212,112,l),
+(212,500,l),
+(75,500,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 117;
+},
+{
+category = Letter;
+glyphname = v;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,500,l),
+(15,500,l),
+(200,0,l),
+(337,0,l),
+(522,500,l),
+(385,500,l),
+(269,172,l),
+(267,172,l)
+);
+}
+);
+width = 537;
+}
+);
+unicode = 118;
+},
+{
+category = Letter;
+glyphname = w;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(385,316,l),
+(473,0,l),
+(615,0,l),
+(743,500,l),
+(616,500,l),
+(538,181,l),
+(536,181,l),
+(447,500,l),
+(321,500,l),
+(232,181,l),
+(230,181,l),
+(152,500,l),
+(25,500,l),
+(153,0,l),
+(295,0,l),
+(383,316,l)
+);
+}
+);
+width = 768;
+}
+);
+unicode = 119;
+},
+{
+category = Letter;
+glyphname = x;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(15,0,l),
+(162,0,l),
+(268,150,l),
+(374,0,l),
+(521,0,l),
+(338,255,l),
+(515,500,l),
+(366,500,l),
+(268,359,l),
+(170,500,l),
+(21,500,l),
+(197,255,l)
+);
+}
+);
+width = 536;
+}
+);
+unicode = 120;
+},
+{
+category = Letter;
+glyphname = y;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(114,-200,l),
+(249,-200,l),
+(530,500,l),
+(393,500,l),
+(277,206,l),
+(275,206,l),
+(152,500,l),
+(15,500,l),
+(206,35,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 121;
+},
+{
+category = Letter;
+glyphname = z;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,96,l),
+(35,0,l),
+(431,0,l),
+(431,117,l),
+(215,117,l),
+(215,119,l),
+(431,404,l),
+(431,500,l),
+(45,500,l),
+(45,383,l),
+(251,383,l),
+(251,381,l)
+);
+}
+);
+width = 476;
+}
+);
+unicode = 122;
+},
+{
+category = Letter;
+glyphname = braceleft;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,225,l),
+(183,264,l),
+(183,266,l),
+(250,305,l),
+(250,630,l),
+(353,630,l),
+(353,730,l),
+(236,730,l),
+(120,663,l),
+(120,315,l),
+(35,315,l),
+(35,215,l),
+(120,215,l),
+(120,-133,l),
+(236,-200,l),
+(353,-200,l),
+(353,-100,l),
+(250,-100,l)
+);
+}
+);
+width = 408;
+}
+);
+unicode = 123;
+},
+{
+category = Letter;
+glyphname = bar;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(115,-200,l),
+(245,-200,l),
+(245,730,l),
+(115,730,l)
+);
+}
+);
+width = 360;
+}
+);
+unicode = 124;
+},
+{
+category = Letter;
+glyphname = braceright;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(158,-100,l),
+(55,-100,l),
+(55,-200,l),
+(172,-200,l),
+(288,-133,l),
+(288,215,l),
+(373,215,l),
+(373,315,l),
+(288,315,l),
+(288,663,l),
+(172,730,l),
+(55,730,l),
+(55,630,l),
+(158,630,l),
+(158,305,l),
+(225,266,l),
+(225,264,l),
+(158,225,l)
+);
+}
+);
+width = 408;
+}
+);
+unicode = 125;
+},
+{
+category = Letter;
+glyphname = asciitilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(247,255,l),
+(388,173,l),
+(501,173,l),
+(617,240,l),
+(617,372,l),
+(500,372,l),
+(500,290,l),
+(425,290,l),
+(284,372,l),
+(171,372,l),
+(55,305,l),
+(55,173,l),
+(172,173,l),
+(172,255,l)
+);
+}
+);
+width = 672;
+}
+);
+unicode = 126;
+},
+{
+category = Letter;
+glyphname = uni00A0;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+width = 260;
+}
+);
+unicode = 160;
+},
+{
+category = Letter;
+glyphname = exclamdown;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,310,l),
+(285,310,l),
+(285,500,l),
+(95,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(104,-230,l),
+(276,-230,l),
+(250,212,l),
+(130,212,l)
+);
+}
+);
+width = 380;
+}
+);
+unicode = 161;
+},
+{
+category = Letter;
+glyphname = cent;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(378,500,l),
+(378,618,l),
+(262,618,l),
+(262,500,l),
+(191,500,l),
+(75,433,l),
+(75,67,l),
+(191,0,l),
+(262,0,l),
+(262,-118,l),
+(378,-118,l),
+(378,0,l),
+(470,0,l),
+(470,117,l),
+(212,117,l),
+(212,383,l),
+(470,383,l),
+(470,500,l)
+);
+}
+);
+width = 525;
+}
+);
+unicode = 162;
+},
+{
+category = Letter;
+glyphname = sterling;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(371,380,l),
+(252,380,l),
+(252,585,l),
+(417,585,l),
+(417,495,l),
+(557,495,l),
+(557,638,l),
+(441,705,l),
+(228,705,l),
+(112,638,l),
+(112,380,l),
+(35,380,l),
+(35,276,l),
+(112,276,l),
+(112,0,l),
+(491,0,l),
+(607,67,l),
+(607,210,l),
+(467,210,l),
+(467,120,l),
+(252,120,l),
+(252,276,l),
+(371,276,l)
+);
+}
+);
+width = 652;
+}
+);
+unicode = 163;
+},
+{
+category = Letter;
+glyphname = yen;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(260,0,l),
+(400,0,l),
+(400,128,l),
+(598,128,l),
+(598,232,l),
+(400,232,l),
+(400,293,l),
+(598,293,l),
+(598,397,l),
+(455,397,l),
+(626,700,l),
+(474,700,l),
+(331,438,l),
+(329,438,l),
+(187,700,l),
+(35,700,l),
+(205,397,l),
+(62,397,l),
+(62,293,l),
+(260,293,l),
+(260,232,l),
+(62,232,l),
+(62,128,l),
+(260,128,l)
+);
+}
+);
+width = 661;
+}
+);
+unicode = 165;
+},
+{
+category = Letter;
+glyphname = brokenbar;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(115,-200,l),
+(245,-200,l),
+(245,202,l),
+(115,202,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(115,328,l),
+(245,328,l),
+(245,730,l),
+(115,730,l)
+);
+}
+);
+width = 360;
+}
+);
+unicode = 166;
+},
+{
+category = Letter;
+glyphname = section;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(420,178,l),
+(253,178,l),
+(253,327,l),
+(420,327,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(113,336,l),
+(113,125,l),
+(229,58,l),
+(420,58,l),
+(420,-80,l),
+(225,-80,l),
+(225,0,l),
+(85,0,l),
+(85,-133,l),
+(201,-200,l),
+(444,-200,l),
+(560,-133,l),
+(560,67,l),
+(473,117,l),
+(473,119,l),
+(560,169,l),
+(560,380,l),
+(444,447,l),
+(253,447,l),
+(253,585,l),
+(438,585,l),
+(438,505,l),
+(578,505,l),
+(578,638,l),
+(462,705,l),
+(229,705,l),
+(113,638,l),
+(113,438,l),
+(200,388,l),
+(200,386,l)
+);
+}
+);
+width = 663;
+}
+);
+unicode = 167;
+},
+{
+category = Letter;
+glyphname = dieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,595,l),
+(215,595,l),
+(215,730,l),
+(80,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(319,595,l),
+(454,595,l),
+(454,730,l),
+(319,730,l)
+);
+}
+);
+width = 544;
+}
+);
+unicode = 168;
+},
+{
+category = Letter;
+glyphname = copyright;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(765,62,l),
+(765,638,l),
+(649,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(649,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(205,605,l),
+(645,605,l),
+(645,95,l),
+(205,95,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(482,281,l),
+(482,228,l),
+(367,228,l),
+(367,472,l),
+(482,472,l),
+(482,419,l),
+(591,419,l),
+(591,523,l),
+(518,565,l),
+(332,565,l),
+(258,523,l),
+(258,177,l),
+(332,135,l),
+(518,135,l),
+(591,177,l),
+(591,281,l)
+);
+}
+);
+width = 850;
+}
+);
+unicode = 169;
+},
+{
+category = Letter;
+glyphname = ordfeminine;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,397,l),
+(353,397,l),
+(353,310,l),
+(212,310,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(191,195,l),
+(282,195,l),
+(353,236,l),
+(424,195,l),
+(490,195,l),
+(490,633,l),
+(374,700,l),
+(125,700,l),
+(125,583,l),
+(353,583,l),
+(353,502,l),
+(191,502,l),
+(75,435,l),
+(75,262,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,0,l),
+(490,0,l),
+(490,117,l),
+(75,117,l)
+);
+}
+);
+width = 565;
+}
+);
+unicode = 170;
+},
+{
+category = Letter;
+glyphname = guillemotleft;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(345,137,l),
+(182,251,l),
+(182,252,l),
+(345,365,l),
+(345,502,l),
+(85,312,l),
+(85,190,l),
+(345,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(605,137,l),
+(442,251,l),
+(442,252,l),
+(605,365,l),
+(605,502,l),
+(345,312,l),
+(345,190,l),
+(605,0,l)
+);
+}
+);
+width = 690;
+}
+);
+unicode = 171;
+},
+{
+category = Letter;
+glyphname = registered;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(601,138,l),
+(514,286,l),
+(582,326,l),
+(582,520,l),
+(508,562,l),
+(267,562,l),
+(267,138,l),
+(376,138,l),
+(376,283,l),
+(399,283,l),
+(482,138,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(376,469,l),
+(473,469,l),
+(473,376,l),
+(376,376,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(765,62,l),
+(765,638,l),
+(649,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(649,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(205,605,l),
+(645,605,l),
+(645,95,l),
+(205,95,l)
+);
+}
+);
+width = 850;
+}
+);
+unicode = 174;
+},
+{
+category = Letter;
+glyphname = macron;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,600,l),
+(455,600,l),
+(455,697,l),
+(144,697,l)
+);
+}
+);
+width = 599;
+}
+);
+unicode = 175;
+},
+{
+category = Letter;
+glyphname = degree;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(430,424,l),
+(430,643,l),
+(314,710,l),
+(181,710,l),
+(65,643,l),
+(65,424,l),
+(181,357,l),
+(314,357,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(186,599,l),
+(309,599,l),
+(309,468,l),
+(186,468,l)
+);
+}
+);
+width = 495;
+}
+);
+unicode = 176;
+},
+{
+category = Letter;
+glyphname = plusminus;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,447,l),
+(85,313,l),
+(278,313,l),
+(278,180,l),
+(412,180,l),
+(412,313,l),
+(605,313,l),
+(605,447,l),
+(412,447,l),
+(412,580,l),
+(278,580,l),
+(278,447,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(605,134,l),
+(85,134,l),
+(85,0,l),
+(605,0,l)
+);
+}
+);
+width = 690;
+}
+);
+unicode = 177;
+},
+{
+category = Letter;
+glyphname = acute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,590,l),
+(285,590,l),
+(429,718,l),
+(259,718,l)
+);
+}
+);
+width = 500;
+}
+);
+unicode = 180;
+},
+{
+category = Letter;
+glyphname = mu;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,-188,l),
+(212,0,l),
+(312,0,l),
+(383,41,l),
+(407,0,l),
+(603,0,l),
+(603,117,l),
+(520,117,l),
+(520,500,l),
+(383,500,l),
+(383,117,l),
+(212,117,l),
+(212,500,l),
+(75,500,l),
+(75,-188,l)
+);
+}
+);
+width = 618;
+}
+);
+unicode = 181;
+},
+{
+category = Letter;
+glyphname = paragraph;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(513,-200,l),
+(650,-200,l),
+(650,700,l),
+(171,700,l),
+(55,633,l),
+(55,286,l),
+(171,219,l),
+(289,219,l),
+(289,-200,l),
+(426,-200,l),
+(426,583,l),
+(513,583,l)
+);
+}
+);
+width = 735;
+}
+);
+unicode = 182;
+},
+{
+category = Letter;
+glyphname = periodcentered;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,264,l),
+(285,264,l),
+(285,454,l),
+(95,454,l)
+);
+}
+);
+width = 380;
+}
+);
+unicode = 183;
+},
+{
+category = Letter;
+glyphname = cedilla;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(255,0,l),
+(195,-104,l),
+(290,-104,l),
+(290,-149,l),
+(191,-149,l),
+(191,-229,l),
+(301,-229,l),
+(387,-179,l),
+(387,-85,l),
+(321,-47,l),
+(348,0,l)
+);
+}
+);
+width = 578;
+}
+);
+unicode = 184;
+},
+{
+category = Letter;
+glyphname = ordmasculine;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,262,l),
+(520,638,l),
+(404,705,l),
+(191,705,l),
+(75,638,l),
+(75,262,l),
+(191,195,l),
+(404,195,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,588,l),
+(383,588,l),
+(383,312,l),
+(212,312,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(75,0,l),
+(520,0,l),
+(520,117,l),
+(75,117,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 186;
+},
+{
+category = Letter;
+glyphname = guillemotright;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(345,0,l),
+(605,190,l),
+(605,312,l),
+(345,502,l),
+(345,365,l),
+(508,252,l),
+(508,251,l),
+(345,137,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(345,190,l),
+(345,312,l),
+(85,502,l),
+(85,365,l),
+(248,252,l),
+(248,251,l),
+(85,137,l)
+);
+}
+);
+width = 690;
+}
+);
+unicode = 187;
+},
+{
+category = Letter;
+glyphname = questiondown;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(273,124,l),
+(201,124,l),
+(85,57,l),
+(85,-163,l),
+(201,-230,l),
+(389,-230,l),
+(505,-163,l),
+(505,-20,l),
+(365,-20,l),
+(365,-110,l),
+(225,-110,l),
+(225,4,l),
+(286,4,l),
+(402,71,l),
+(392,212,l),
+(282,212,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(432,500,l),
+(242,500,l),
+(242,310,l),
+(432,310,l)
+);
+}
+);
+width = 590;
+}
+);
+unicode = 191;
+},
+{
+category = Letter;
+glyphname = Agrave;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(409,700,l),
+(265,700,l),
+(15,0,l),
+(153,0,l),
+(206,151,l),
+(468,151,l),
+(521,0,l),
+(659,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,524,l),
+(338,524,l),
+(425,271,l),
+(248,271,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(335,913,l),
+(165,913,l),
+(309,785,l),
+(429,785,l)
+);
+}
+);
+width = 674;
+}
+);
+unicode = 192;
+},
+{
+category = Letter;
+glyphname = Aacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(409,700,l),
+(265,700,l),
+(15,0,l),
+(153,0,l),
+(206,151,l),
+(468,151,l),
+(521,0,l),
+(659,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,524,l),
+(338,524,l),
+(425,271,l),
+(248,271,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(265,785,l),
+(385,785,l),
+(529,913,l),
+(359,913,l)
+);
+}
+);
+width = 674;
+}
+);
+unicode = 193;
+},
+{
+category = Letter;
+glyphname = Acircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(409,700,l),
+(265,700,l),
+(15,0,l),
+(153,0,l),
+(206,151,l),
+(468,151,l),
+(521,0,l),
+(659,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,524,l),
+(338,524,l),
+(425,271,l),
+(248,271,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(247,933,l),
+(147,785,l),
+(262,785,l),
+(342,865,l),
+(423,785,l),
+(538,785,l),
+(437,933,l)
+);
+}
+);
+width = 674;
+}
+);
+unicode = 194;
+},
+{
+category = Letter;
+glyphname = Atilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(409,700,l),
+(265,700,l),
+(15,0,l),
+(153,0,l),
+(206,151,l),
+(468,151,l),
+(521,0,l),
+(659,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,524,l),
+(338,524,l),
+(425,271,l),
+(248,271,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(261,867,l),
+(403,785,l),
+(431,785,l),
+(525,840,l),
+(525,964,l),
+(427,964,l),
+(427,882,l),
+(423,882,l),
+(281,964,l),
+(253,964,l),
+(159,909,l),
+(159,785,l),
+(257,785,l),
+(257,867,l)
+);
+}
+);
+width = 674;
+}
+);
+unicode = 195;
+},
+{
+category = Letter;
+glyphname = Adieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(409,700,l),
+(265,700,l),
+(15,0,l),
+(153,0,l),
+(206,151,l),
+(468,151,l),
+(521,0,l),
+(659,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,524,l),
+(338,524,l),
+(425,271,l),
+(248,271,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(155,785,l),
+(290,785,l),
+(290,920,l),
+(155,920,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(394,785,l),
+(529,785,l),
+(529,920,l),
+(394,920,l)
+);
+}
+);
+width = 674;
+}
+);
+unicode = 196;
+},
+{
+category = Letter;
+glyphname = Aring;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(498,657,l),
+(498,866,l),
+(416,913,l),
+(255,913,l),
+(173,866,l),
+(173,657,l),
+(236,620,l),
+(15,0,l),
+(153,0,l),
+(206,151,l),
+(468,151,l),
+(521,0,l),
+(659,0,l),
+(437,622,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,524,l),
+(338,524,l),
+(425,271,l),
+(248,271,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(278,818,l),
+(393,818,l),
+(393,705,l),
+(278,705,l)
+);
+}
+);
+width = 674;
+}
+);
+unicode = 197;
+},
+{
+category = Letter;
+glyphname = AE;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(628,300,l),
+(847,300,l),
+(847,420,l),
+(628,420,l),
+(628,580,l),
+(907,580,l),
+(907,700,l),
+(466,700,l),
+(-25,0,l),
+(123,0,l),
+(228,151,l),
+(488,151,l),
+(488,0,l),
+(907,0,l),
+(907,120,l),
+(628,120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(486,524,l),
+(488,524,l),
+(488,271,l),
+(311,271,l)
+);
+}
+);
+width = 952;
+}
+);
+unicode = 198;
+},
+{
+category = Letter;
+glyphname = Ccedilla;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,205,l),
+(460,115,l),
+(225,115,l),
+(225,585,l),
+(460,585,l),
+(460,495,l),
+(600,495,l),
+(600,638,l),
+(484,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(294,-5,l),
+(237,-104,l),
+(332,-104,l),
+(332,-149,l),
+(233,-149,l),
+(233,-229,l),
+(343,-229,l),
+(429,-179,l),
+(429,-85,l),
+(363,-47,l),
+(387,-5,l),
+(484,-5,l),
+(600,62,l),
+(600,205,l)
+);
+}
+);
+width = 675;
+}
+);
+unicode = 199;
+},
+{
+category = Letter;
+glyphname = Egrave;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,300,l),
+(444,300,l),
+(444,420,l),
+(225,420,l),
+(225,580,l),
+(504,580,l),
+(504,700,l),
+(85,700,l),
+(85,0,l),
+(504,0,l),
+(504,120,l),
+(225,120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(305,913,l),
+(135,913,l),
+(279,785,l),
+(399,785,l)
+);
+}
+);
+width = 549;
+}
+);
+unicode = 200;
+},
+{
+category = Letter;
+glyphname = Eacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,300,l),
+(444,300,l),
+(444,420,l),
+(225,420,l),
+(225,580,l),
+(504,580,l),
+(504,700,l),
+(85,700,l),
+(85,0,l),
+(504,0,l),
+(504,120,l),
+(225,120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(205,785,l),
+(325,785,l),
+(469,913,l),
+(299,913,l)
+);
+}
+);
+width = 549;
+}
+);
+unicode = 201;
+},
+{
+category = Letter;
+glyphname = Ecircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,300,l),
+(444,300,l),
+(444,420,l),
+(225,420,l),
+(225,580,l),
+(504,580,l),
+(504,700,l),
+(85,700,l),
+(85,0,l),
+(504,0,l),
+(504,120,l),
+(225,120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(204,933,l),
+(104,785,l),
+(219,785,l),
+(299,865,l),
+(380,785,l),
+(495,785,l),
+(394,933,l)
+);
+}
+);
+width = 549;
+}
+);
+unicode = 202;
+},
+{
+category = Letter;
+glyphname = Edieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,300,l),
+(444,300,l),
+(444,420,l),
+(225,420,l),
+(225,580,l),
+(504,580,l),
+(504,700,l),
+(85,700,l),
+(85,0,l),
+(504,0,l),
+(504,120,l),
+(225,120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(110,785,l),
+(245,785,l),
+(245,920,l),
+(110,920,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(349,785,l),
+(484,785,l),
+(484,920,l),
+(349,920,l)
+);
+}
+);
+width = 549;
+}
+);
+unicode = 203;
+},
+{
+category = Letter;
+glyphname = Igrave;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,700,l),
+(85,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,913,l),
+(-20,913,l),
+(124,785,l),
+(244,785,l)
+);
+}
+);
+width = 310;
+}
+);
+unicode = 204;
+},
+{
+category = Letter;
+glyphname = Iacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,700,l),
+(85,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(65,785,l),
+(185,785,l),
+(329,913,l),
+(159,913,l)
+);
+}
+);
+width = 310;
+}
+);
+unicode = 205;
+},
+{
+category = Letter;
+glyphname = Icircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,700,l),
+(85,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(60,933,l),
+(-40,785,l),
+(75,785,l),
+(155,865,l),
+(236,785,l),
+(351,785,l),
+(250,933,l)
+);
+}
+);
+width = 310;
+}
+);
+unicode = 206;
+},
+{
+category = Letter;
+glyphname = Idieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,700,l),
+(85,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-32,785,l),
+(103,785,l),
+(103,920,l),
+(-32,920,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(207,785,l),
+(342,785,l),
+(342,920,l),
+(207,920,l)
+);
+}
+);
+width = 310;
+}
+);
+unicode = 207;
+},
+{
+category = Letter;
+glyphname = Eth;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(15,375,l),
+(15,281,l),
+(85,281,l),
+(85,0,l),
+(514,0,l),
+(630,67,l),
+(630,633,l),
+(514,700,l),
+(85,700,l),
+(85,375,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,580,l),
+(490,580,l),
+(490,120,l),
+(225,120,l),
+(225,281,l),
+(321,281,l),
+(321,375,l),
+(225,375,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 208;
+},
+{
+category = Letter;
+glyphname = Ntilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,453,l),
+(227,453,l),
+(529,0,l),
+(660,0,l),
+(660,700,l),
+(520,700,l),
+(520,247,l),
+(518,247,l),
+(216,700,l),
+(85,700,l),
+(85,0,l),
+(225,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(292,867,l),
+(434,785,l),
+(462,785,l),
+(556,840,l),
+(556,964,l),
+(458,964,l),
+(458,882,l),
+(454,882,l),
+(312,964,l),
+(284,964,l),
+(190,909,l),
+(190,785,l),
+(288,785,l),
+(288,867,l)
+);
+}
+);
+width = 745;
+}
+);
+unicode = 209;
+},
+{
+category = Letter;
+glyphname = Ograve;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,62,l),
+(630,638,l),
+(514,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(490,585,l),
+(490,115,l),
+(225,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(355,913,l),
+(185,913,l),
+(329,785,l),
+(449,785,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 210;
+},
+{
+category = Letter;
+glyphname = Oacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,62,l),
+(630,638,l),
+(514,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(490,585,l),
+(490,115,l),
+(225,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(265,785,l),
+(385,785,l),
+(529,913,l),
+(359,913,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 211;
+},
+{
+category = Letter;
+glyphname = Ocircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,62,l),
+(630,638,l),
+(514,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(490,585,l),
+(490,115,l),
+(225,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(272,933,l),
+(172,785,l),
+(287,785,l),
+(367,865,l),
+(448,785,l),
+(563,785,l),
+(462,933,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 212;
+},
+{
+category = Letter;
+glyphname = Otilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,62,l),
+(630,638,l),
+(514,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(490,585,l),
+(490,115,l),
+(225,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(281,867,l),
+(423,785,l),
+(451,785,l),
+(545,840,l),
+(545,964,l),
+(447,964,l),
+(447,882,l),
+(443,882,l),
+(301,964,l),
+(273,964,l),
+(179,909,l),
+(179,785,l),
+(277,785,l),
+(277,867,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 213;
+},
+{
+category = Letter;
+glyphname = Odieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,62,l),
+(630,638,l),
+(514,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(490,585,l),
+(490,115,l),
+(225,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,785,l),
+(310,785,l),
+(310,920,l),
+(175,920,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(414,785,l),
+(549,785,l),
+(549,920,l),
+(414,920,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 214;
+},
+{
+category = Letter;
+glyphname = multiply;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,520,l),
+(55,425,l),
+(220,260,l),
+(55,95,l),
+(150,0,l),
+(315,165,l),
+(480,0,l),
+(575,95,l),
+(410,260,l),
+(575,425,l),
+(480,520,l),
+(315,355,l)
+);
+}
+);
+width = 630;
+}
+);
+unicode = 215;
+},
+{
+category = Letter;
+glyphname = Oslash;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,62,l),
+(630,638,l),
+(514,705,l),
+(201,705,l),
+(85,638,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(274,115,l),
+(490,475,l),
+(490,115,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,585,l),
+(440,585,l),
+(225,225,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 216;
+},
+{
+category = Letter;
+glyphname = Ugrave;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,700,l),
+(490,125,l),
+(225,125,l),
+(225,700,l),
+(85,700,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l),
+(630,62,l),
+(630,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(345,913,l),
+(175,913,l),
+(319,785,l),
+(439,785,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 217;
+},
+{
+category = Letter;
+glyphname = Uacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,700,l),
+(490,125,l),
+(225,125,l),
+(225,700,l),
+(85,700,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l),
+(630,62,l),
+(630,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(280,785,l),
+(400,785,l),
+(544,913,l),
+(374,913,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 218;
+},
+{
+category = Letter;
+glyphname = Ucircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,700,l),
+(490,125,l),
+(225,125,l),
+(225,700,l),
+(85,700,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l),
+(630,62,l),
+(630,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(270,933,l),
+(170,785,l),
+(285,785,l),
+(365,865,l),
+(446,785,l),
+(561,785,l),
+(460,933,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 219;
+},
+{
+category = Letter;
+glyphname = Udieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,700,l),
+(490,125,l),
+(225,125,l),
+(225,700,l),
+(85,700,l),
+(85,62,l),
+(201,-5,l),
+(514,-5,l),
+(630,62,l),
+(630,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(175,785,l),
+(310,785,l),
+(310,920,l),
+(175,920,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(414,785,l),
+(549,785,l),
+(549,920,l),
+(414,920,l)
+);
+}
+);
+width = 715;
+}
+);
+unicode = 220;
+},
+{
+category = Letter;
+glyphname = Yacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,0,l),
+(380,0,l),
+(380,298,l),
+(606,700,l),
+(454,700,l),
+(311,438,l),
+(309,438,l),
+(167,700,l),
+(15,700,l),
+(240,299,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,785,l),
+(345,785,l),
+(489,913,l),
+(319,913,l)
+);
+}
+);
+width = 621;
+}
+);
+unicode = 221;
+},
+{
+category = Letter;
+glyphname = Thorn;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,141,l),
+(454,141,l),
+(570,208,l),
+(570,535,l),
+(454,602,l),
+(225,602,l),
+(225,730,l),
+(85,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,482,l),
+(430,482,l),
+(430,261,l),
+(225,261,l)
+);
+}
+);
+width = 645;
+}
+);
+unicode = 222;
+},
+{
+category = Letter;
+glyphname = germandbls;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(25,302,l),
+(115,302,l),
+(115,-200,l),
+(255,-200,l),
+(255,580,l),
+(430,580,l),
+(430,422,l),
+(318,422,l),
+(318,302,l),
+(460,302,l),
+(460,120,l),
+(318,120,l),
+(318,0,l),
+(484,0,l),
+(600,67,l),
+(600,311,l),
+(496,370,l),
+(570,413,l),
+(570,633,l),
+(454,700,l),
+(231,700,l),
+(115,633,l),
+(115,422,l),
+(25,422,l)
+);
+}
+);
+width = 675;
+}
+);
+unicode = 223;
+},
+{
+category = Letter;
+glyphname = agrave;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,197,l),
+(333,197,l),
+(333,110,l),
+(192,110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(171,-5,l),
+(262,-5,l),
+(333,36,l),
+(404,-5,l),
+(470,-5,l),
+(470,433,l),
+(354,500,l),
+(105,500,l),
+(105,383,l),
+(333,383,l),
+(333,302,l),
+(171,302,l),
+(55,235,l),
+(55,62,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(294,718,l),
+(124,718,l),
+(268,590,l),
+(388,590,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 224;
+},
+{
+category = Letter;
+glyphname = aacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,197,l),
+(333,197,l),
+(333,110,l),
+(192,110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(171,-5,l),
+(262,-5,l),
+(333,36,l),
+(404,-5,l),
+(470,-5,l),
+(470,433,l),
+(354,500,l),
+(105,500,l),
+(105,383,l),
+(333,383,l),
+(333,302,l),
+(171,302,l),
+(55,235,l),
+(55,62,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(165,590,l),
+(285,590,l),
+(429,718,l),
+(259,718,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 225;
+},
+{
+category = Letter;
+glyphname = acircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,197,l),
+(333,197,l),
+(333,110,l),
+(192,110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(171,-5,l),
+(262,-5,l),
+(333,36,l),
+(404,-5,l),
+(470,-5,l),
+(470,433,l),
+(354,500,l),
+(105,500,l),
+(105,383,l),
+(333,383,l),
+(333,302,l),
+(171,302,l),
+(55,235,l),
+(55,62,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(190,738,l),
+(90,590,l),
+(205,590,l),
+(285,670,l),
+(366,590,l),
+(481,590,l),
+(380,738,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 226;
+},
+{
+category = Letter;
+glyphname = atilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,197,l),
+(333,197,l),
+(333,110,l),
+(192,110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(171,-5,l),
+(262,-5,l),
+(333,36,l),
+(404,-5,l),
+(470,-5,l),
+(470,433,l),
+(354,500,l),
+(105,500,l),
+(105,383,l),
+(333,383,l),
+(333,302,l),
+(171,302,l),
+(55,235,l),
+(55,62,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(192,667,l),
+(334,585,l),
+(362,585,l),
+(456,640,l),
+(456,764,l),
+(358,764,l),
+(358,682,l),
+(354,682,l),
+(212,764,l),
+(184,764,l),
+(90,709,l),
+(90,585,l),
+(188,585,l),
+(188,667,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 227;
+},
+{
+category = Letter;
+glyphname = adieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,197,l),
+(333,197,l),
+(333,110,l),
+(192,110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(171,-5,l),
+(262,-5,l),
+(333,36,l),
+(404,-5,l),
+(470,-5,l),
+(470,433,l),
+(354,500,l),
+(105,500,l),
+(105,383,l),
+(333,383,l),
+(333,302,l),
+(171,302,l),
+(55,235,l),
+(55,62,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(97,595,l),
+(232,595,l),
+(232,730,l),
+(97,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(336,595,l),
+(471,595,l),
+(471,730,l),
+(336,730,l)
+);
+}
+);
+width = 546;
+}
+);
+unicode = 228;
+},
+{
+category = Letter;
+glyphname = aring;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(192,197,l),
+(333,197,l),
+(333,110,l),
+(192,110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(171,-5,l),
+(262,-5,l),
+(333,36,l),
+(404,-5,l),
+(470,-5,l),
+(470,433,l),
+(354,500,l),
+(105,500,l),
+(105,383,l),
+(333,383,l),
+(333,302,l),
+(171,302,l),
+(55,235,l),
+(55,62,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(447,617,l),
+(447,826,l),
+(365,873,l),
+(204,873,l),
+(122,826,l),
+(122,617,l),
+(204,570,l),
+(365,570,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(227,778,l),
+(342,778,l),
+(342,665,l),
+(227,665,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 229;
+},
+{
+category = Letter;
+glyphname = ae;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(748,117,l),
+(470,117,l),
+(470,199,l),
+(748,199,l),
+(748,438,l),
+(632,505,l),
+(469,505,l),
+(397,463,l),
+(334,500,l),
+(105,500,l),
+(105,383,l),
+(333,383,l),
+(333,302,l),
+(171,302,l),
+(55,235,l),
+(55,62,l),
+(171,-5,l),
+(262,-5,l),
+(360,51,l),
+(449,0,l),
+(748,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(192,197,l),
+(333,197,l),
+(333,110,l),
+(192,110,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(470,388,l),
+(611,388,l),
+(611,302,l),
+(470,302,l)
+);
+}
+);
+width = 823;
+}
+);
+unicode = 230;
+},
+{
+category = Letter;
+glyphname = ccedilla;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(262,0,l),
+(202,-104,l),
+(297,-104,l),
+(297,-149,l),
+(198,-149,l),
+(198,-229,l),
+(308,-229,l),
+(394,-179,l),
+(394,-85,l),
+(328,-47,l),
+(355,0,l),
+(460,0,l),
+(460,117,l),
+(212,117,l),
+(212,383,l),
+(460,383,l),
+(460,500,l),
+(191,500,l),
+(75,433,l),
+(75,67,l),
+(191,0,l)
+);
+}
+);
+width = 515;
+}
+);
+unicode = 231;
+},
+{
+category = Letter;
+glyphname = egrave;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,117,l),
+(212,117,l),
+(212,199,l),
+(490,199,l),
+(490,438,l),
+(374,505,l),
+(191,505,l),
+(75,438,l),
+(75,67,l),
+(191,0,l),
+(490,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(353,388,l),
+(353,302,l),
+(212,302,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(305,718,l),
+(135,718,l),
+(279,590,l),
+(399,590,l)
+);
+}
+);
+width = 565;
+}
+);
+unicode = 232;
+},
+{
+category = Letter;
+glyphname = eacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,117,l),
+(212,117,l),
+(212,199,l),
+(490,199,l),
+(490,438,l),
+(374,505,l),
+(191,505,l),
+(75,438,l),
+(75,67,l),
+(191,0,l),
+(490,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(353,388,l),
+(353,302,l),
+(212,302,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(195,590,l),
+(315,590,l),
+(459,718,l),
+(289,718,l)
+);
+}
+);
+width = 565;
+}
+);
+unicode = 233;
+},
+{
+category = Letter;
+glyphname = ecircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,117,l),
+(212,117,l),
+(212,199,l),
+(490,199,l),
+(490,438,l),
+(374,505,l),
+(191,505,l),
+(75,438,l),
+(75,67,l),
+(191,0,l),
+(490,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(353,388,l),
+(353,302,l),
+(212,302,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(192,738,l),
+(92,590,l),
+(207,590,l),
+(287,670,l),
+(368,590,l),
+(483,590,l),
+(382,738,l)
+);
+}
+);
+width = 565;
+}
+);
+unicode = 234;
+},
+{
+category = Letter;
+glyphname = edieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,117,l),
+(212,117,l),
+(212,199,l),
+(490,199,l),
+(490,438,l),
+(374,505,l),
+(191,505,l),
+(75,438,l),
+(75,67,l),
+(191,0,l),
+(490,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(353,388,l),
+(353,302,l),
+(212,302,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(103,595,l),
+(238,595,l),
+(238,730,l),
+(103,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(342,595,l),
+(477,595,l),
+(477,730,l),
+(342,730,l)
+);
+}
+);
+width = 565;
+}
+);
+unicode = 235;
+},
+{
+category = Letter;
+glyphname = igrave;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(130,718,l),
+(-40,718,l),
+(104,590,l),
+(224,590,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 236;
+},
+{
+category = Letter;
+glyphname = iacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(63,590,l),
+(183,590,l),
+(327,718,l),
+(157,718,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 237;
+},
+{
+category = Letter;
+glyphname = icircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(48,738,l),
+(-52,590,l),
+(63,590,l),
+(143,670,l),
+(224,590,l),
+(339,590,l),
+(238,738,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 238;
+},
+{
+category = Letter;
+glyphname = idieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-43,595,l),
+(92,595,l),
+(92,730,l),
+(-43,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(196,595,l),
+(331,595,l),
+(331,730,l),
+(196,730,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 239;
+},
+{
+category = Letter;
+glyphname = eth;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(560,544,l),
+(560,638,l),
+(444,705,l),
+(201,705,l),
+(201,585,l),
+(420,585,l),
+(420,544,l),
+(313,544,l),
+(313,450,l),
+(420,450,l),
+(420,374,l),
+(349,415,l),
+(201,415,l),
+(85,348,l),
+(85,62,l),
+(201,-5,l),
+(444,-5,l),
+(560,62,l),
+(560,450,l),
+(619,450,l),
+(619,544,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(420,115,l),
+(225,115,l),
+(225,295,l),
+(420,295,l)
+);
+}
+);
+width = 645;
+}
+);
+unicode = 240;
+},
+{
+category = Letter;
+glyphname = ntilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,438,l),
+(404,505,l),
+(283,505,l),
+(212,464,l),
+(188,505,l),
+(75,505,l),
+(75,0,l),
+(212,0,l),
+(212,388,l),
+(383,388,l),
+(383,0,l),
+(520,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(222,667,l),
+(364,585,l),
+(392,585,l),
+(486,640,l),
+(486,764,l),
+(388,764,l),
+(388,682,l),
+(384,682,l),
+(242,764,l),
+(214,764,l),
+(120,709,l),
+(120,585,l),
+(218,585,l),
+(218,667,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 241;
+},
+{
+category = Letter;
+glyphname = ograve;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,62,l),
+(520,438,l),
+(404,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(404,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(383,388,l),
+(383,112,l),
+(212,112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(315,718,l),
+(145,718,l),
+(289,590,l),
+(409,590,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 242;
+},
+{
+category = Letter;
+glyphname = oacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,62,l),
+(520,438,l),
+(404,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(404,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(383,388,l),
+(383,112,l),
+(212,112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(195,590,l),
+(315,590,l),
+(459,718,l),
+(289,718,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 243;
+},
+{
+category = Letter;
+glyphname = ocircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,62,l),
+(520,438,l),
+(404,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(404,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(383,388,l),
+(383,112,l),
+(212,112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(208,738,l),
+(108,590,l),
+(223,590,l),
+(303,670,l),
+(384,590,l),
+(499,590,l),
+(398,738,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 244;
+},
+{
+category = Letter;
+glyphname = otilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,62,l),
+(520,438,l),
+(404,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(404,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(383,388,l),
+(383,112,l),
+(212,112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(222,667,l),
+(364,585,l),
+(392,585,l),
+(486,640,l),
+(486,764,l),
+(388,764,l),
+(388,682,l),
+(384,682,l),
+(242,764,l),
+(214,764,l),
+(120,709,l),
+(120,585,l),
+(218,585,l),
+(218,667,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 245;
+},
+{
+category = Letter;
+glyphname = odieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,62,l),
+(520,438,l),
+(404,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(404,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(383,388,l),
+(383,112,l),
+(212,112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(115,595,l),
+(250,595,l),
+(250,730,l),
+(115,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(354,595,l),
+(489,595,l),
+(489,730,l),
+(354,730,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 246;
+},
+{
+category = Letter;
+glyphname = divide;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(565,327,l),
+(45,327,l),
+(45,203,l),
+(565,203,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(220,-31,l),
+(390,-31,l),
+(390,139,l),
+(220,139,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(220,391,l),
+(390,391,l),
+(390,561,l),
+(220,561,l)
+);
+}
+);
+width = 610;
+}
+);
+unicode = 247;
+},
+{
+category = Letter;
+glyphname = oslash;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,62,l),
+(520,438,l),
+(404,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(404,-5,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(253,112,l),
+(383,301,l),
+(383,112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(342,388,l),
+(212,198,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 248;
+},
+{
+category = Letter;
+glyphname = ugrave;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,62,l),
+(191,-5,l),
+(312,-5,l),
+(383,36,l),
+(407,-5,l),
+(520,-5,l),
+(520,500,l),
+(383,500,l),
+(383,112,l),
+(212,112,l),
+(212,500,l),
+(75,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(335,718,l),
+(165,718,l),
+(309,590,l),
+(429,590,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 249;
+},
+{
+category = Letter;
+glyphname = uacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,62,l),
+(191,-5,l),
+(312,-5,l),
+(383,36,l),
+(407,-5,l),
+(520,-5,l),
+(520,500,l),
+(383,500,l),
+(383,112,l),
+(212,112,l),
+(212,500,l),
+(75,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(205,590,l),
+(325,590,l),
+(469,718,l),
+(299,718,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 250;
+},
+{
+category = Letter;
+glyphname = ucircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,62,l),
+(191,-5,l),
+(312,-5,l),
+(383,36,l),
+(407,-5,l),
+(520,-5,l),
+(520,500,l),
+(383,500,l),
+(383,112,l),
+(212,112,l),
+(212,500,l),
+(75,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(208,738,l),
+(108,590,l),
+(223,590,l),
+(303,670,l),
+(384,590,l),
+(499,590,l),
+(398,738,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 251;
+},
+{
+category = Letter;
+glyphname = udieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(75,62,l),
+(191,-5,l),
+(312,-5,l),
+(383,36,l),
+(407,-5,l),
+(520,-5,l),
+(520,500,l),
+(383,500,l),
+(383,112,l),
+(212,112,l),
+(212,500,l),
+(75,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(115,595,l),
+(250,595,l),
+(250,730,l),
+(115,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(354,595,l),
+(489,595,l),
+(489,730,l),
+(354,730,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 252;
+},
+{
+category = Letter;
+glyphname = yacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(114,-200,l),
+(249,-200,l),
+(530,500,l),
+(393,500,l),
+(277,206,l),
+(275,206,l),
+(152,500,l),
+(15,500,l),
+(206,35,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(185,590,l),
+(305,590,l),
+(449,718,l),
+(279,718,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 253;
+},
+{
+category = Letter;
+glyphname = thorn;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,730,l),
+(65,-200,l),
+(202,-200,l),
+(202,36,l),
+(273,-5,l),
+(404,-5,l),
+(520,62,l),
+(520,438,l),
+(404,505,l),
+(273,505,l),
+(202,464,l),
+(202,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(202,388,l),
+(383,388,l),
+(383,112,l),
+(202,112,l)
+);
+}
+);
+width = 585;
+}
+);
+unicode = 254;
+},
+{
+category = Letter;
+glyphname = ydieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(114,-200,l),
+(249,-200,l),
+(530,500,l),
+(393,500,l),
+(277,206,l),
+(275,206,l),
+(152,500,l),
+(15,500,l),
+(206,35,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(95,595,l),
+(230,595,l),
+(230,730,l),
+(95,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(334,595,l),
+(469,595,l),
+(469,730,l),
+(334,730,l)
+);
+}
+);
+width = 545;
+}
+);
+unicode = 255;
+},
+{
+category = Letter;
+glyphname = hbar;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,0,l),
+(212,388,l),
+(393,388,l),
+(393,0,l),
+(530,0,l),
+(530,438,l),
+(414,505,l),
+(283,505,l),
+(212,464,l),
+(212,565,l),
+(360,565,l),
+(360,659,l),
+(212,659,l),
+(212,730,l),
+(75,730,l),
+(75,659,l),
+(10,659,l),
+(10,565,l),
+(75,565,l),
+(75,0,l)
+);
+}
+);
+width = 605;
+}
+);
+unicode = 295;
+},
+{
+category = Letter;
+glyphname = Itilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-98,200);
+ref = tilde;
+}
+);
+width = 310;
+}
+);
+unicode = 296;
+},
+{
+category = Letter;
+glyphname = itilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(63,667,l),
+(205,585,l),
+(233,585,l),
+(327,640,l),
+(327,764,l),
+(229,764,l),
+(229,682,l),
+(225,682,l),
+(83,764,l),
+(55,764,l),
+(-39,709,l),
+(-39,585,l),
+(59,585,l),
+(59,667,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 297;
+},
+{
+category = Letter;
+glyphname = dotlessi;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 305;
+},
+{
+category = Letter;
+glyphname = IJ;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(225,0,l),
+(225,700,l),
+(85,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(630,115,l),
+(465,115,l),
+(465,255,l),
+(325,255,l),
+(325,62,l),
+(441,-5,l),
+(654,-5,l),
+(770,62,l),
+(770,700,l),
+(630,700,l)
+);
+}
+);
+width = 855;
+}
+);
+unicode = 306;
+},
+{
+category = Letter;
+glyphname = ij;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(70,593,l),
+(217,593,l),
+(217,730,l),
+(70,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(357,593,l),
+(504,593,l),
+(504,730,l),
+(357,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(499,500,l),
+(362,500,l),
+(362,-83,l),
+(262,-83,l),
+(262,-200,l),
+(383,-200,l),
+(499,-133,l)
+);
+}
+);
+width = 574;
+}
+);
+unicode = 307;
+},
+{
+category = Letter;
+glyphname = Jcircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+ref = J;
+},
+{
+pos = (127,200);
+ref = circumflex;
+}
+);
+width = 545;
+}
+);
+unicode = 308;
+},
+{
+category = Letter;
+glyphname = jcircumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,-83,l),
+(-25,-83,l),
+(-25,-200,l),
+(96,-200,l),
+(212,-133,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(48,738,l),
+(-52,590,l),
+(63,590,l),
+(143,670,l),
+(224,590,l),
+(339,590,l),
+(238,738,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 309;
+},
+{
+category = Letter;
+glyphname = kcommaaccent;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,730,l),
+(75,730,l),
+(75,0,l),
+(212,0,l),
+(212,108,l),
+(267,177,l),
+(397,0,l),
+(556,0,l),
+(347,277,l),
+(526,500,l),
+(369,500,l),
+(214,299,l),
+(212,299,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(209,-367,l),
+(275,-367,l),
+(361,-121,l),
+(361,-55,l),
+(209,-55,l)
+);
+}
+);
+width = 551;
+}
+);
+unicode = 311;
+},
+{
+category = Letter;
+glyphname = kgreenlandic;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l),
+(212,108,l),
+(267,177,l),
+(397,0,l),
+(556,0,l),
+(347,277,l),
+(526,500,l),
+(369,500,l),
+(214,299,l),
+(212,299,l)
+);
+}
+);
+width = 551;
+}
+);
+unicode = 312;
+},
+{
+category = Letter;
+glyphname = Ldotaccent;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(464,0,l),
+(464,120,l),
+(225,120,l),
+(225,700,l),
+(85,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(319,234,l),
+(453,234,l),
+(453,368,l),
+(319,368,l)
+);
+}
+);
+width = 500;
+}
+);
+unicode = 319;
+},
+{
+category = Letter;
+glyphname = ldot;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(191,0,l),
+(312,0,l),
+(312,117,l),
+(212,117,l),
+(212,730,l),
+(75,730,l),
+(75,67,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(309,234,l),
+(443,234,l),
+(443,368,l),
+(309,368,l)
+);
+}
+);
+width = 483;
+}
+);
+unicode = 320;
+},
+{
+category = Letter;
+glyphname = Lslash;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(15,378,l),
+(15,278,l),
+(85,296,l),
+(85,0,l),
+(464,0,l),
+(464,120,l),
+(225,120,l),
+(225,333,l),
+(321,358,l),
+(321,458,l),
+(225,433,l),
+(225,700,l),
+(85,700,l),
+(85,396,l)
+);
+}
+);
+width = 489;
+}
+);
+unicode = 321;
+},
+{
+category = Letter;
+glyphname = lslash;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(15,378,l),
+(15,278,l),
+(75,294,l),
+(75,67,l),
+(191,0,l),
+(312,0,l),
+(312,117,l),
+(212,117,l),
+(212,331,l),
+(301,355,l),
+(301,455,l),
+(212,431,l),
+(212,730,l),
+(75,730,l),
+(75,394,l)
+);
+}
+);
+width = 327;
+}
+);
+unicode = 322;
+},
+{
+category = Letter;
+glyphname = Nacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+ref = N;
+},
+{
+pos = (115,200);
+ref = acute;
+}
+);
+width = 745;
+}
+);
+unicode = 323;
+},
+{
+category = Letter;
+glyphname = nacute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(520,438,l),
+(404,505,l),
+(283,505,l),
+(212,464,l),
+(188,505,l),
+(75,505,l),
+(75,0,l),
+(212,0,l),
+(212,388,l),
+(383,388,l),
+(383,0,l),
+(520,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(165,590,l),
+(285,590,l),
+(429,718,l),
+(259,718,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 324;
+},
+{
+category = Letter;
+glyphname = OE;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(630,300,l),
+(849,300,l),
+(849,420,l),
+(630,420,l),
+(630,580,l),
+(909,580,l),
+(909,700,l),
+(201,700,l),
+(85,633,l),
+(85,67,l),
+(201,0,l),
+(909,0,l),
+(909,120,l),
+(630,120,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,580,l),
+(490,580,l),
+(490,120,l),
+(225,120,l)
+);
+}
+);
+width = 954;
+}
+);
+unicode = 338;
+},
+{
+category = Letter;
+glyphname = oe;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(798,117,l),
+(520,117,l),
+(520,199,l),
+(798,199,l),
+(798,438,l),
+(682,505,l),
+(519,505,l),
+(451,466,l),
+(384,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(384,-5,l),
+(456,36,l),
+(519,0,l),
+(798,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(212,388,l),
+(383,388,l),
+(383,112,l),
+(212,112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(520,388,l),
+(661,388,l),
+(661,302,l),
+(520,302,l)
+);
+}
+);
+width = 873;
+}
+);
+unicode = 339;
+},
+{
+category = Letter;
+glyphname = Racute;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (55,200);
+ref = acute;
+}
+);
+width = 665;
+}
+);
+unicode = 340;
+},
+{
+category = Letter;
+glyphname = Rcommaaccent;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(616,0,l),
+(464,264,l),
+(580,331,l),
+(580,633,l),
+(464,700,l),
+(85,700,l),
+(85,0,l),
+(225,0,l),
+(225,264,l),
+(312,264,l),
+(462,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(225,580,l),
+(440,580,l),
+(440,384,l),
+(225,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(256,-367,l),
+(322,-367,l),
+(408,-121,l),
+(408,-55,l),
+(256,-55,l)
+);
+}
+);
+width = 665;
+}
+);
+unicode = 342;
+},
+{
+category = Letter;
+glyphname = rcommaaccent;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(384,383,l),
+(384,500,l),
+(283,500,l),
+(212,459,l),
+(188,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l),
+(212,383,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,-367,l),
+(194,-367,l),
+(280,-121,l),
+(280,-55,l),
+(128,-55,l)
+);
+}
+);
+width = 409;
+}
+);
+unicode = 343;
+},
+{
+category = Letter;
+glyphname = Rcaron;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+ref = R;
+},
+{
+pos = (66,200);
+ref = caron;
+}
+);
+width = 665;
+}
+);
+unicode = 344;
+},
+{
+category = Letter;
+glyphname = rcaron;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(384,383,l),
+(384,500,l),
+(283,500,l),
+(212,459,l),
+(188,500,l),
+(75,500,l),
+(75,0,l),
+(212,0,l),
+(212,383,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,590,l),
+(400,738,l),
+(285,738,l),
+(205,658,l),
+(124,738,l),
+(9,738,l),
+(110,590,l)
+);
+}
+);
+width = 409;
+}
+);
+unicode = 345;
+},
+{
+category = Letter;
+glyphname = Scaron;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,355,l),
+(201,288,l),
+(430,288,l),
+(430,115,l),
+(215,115,l),
+(215,195,l),
+(75,195,l),
+(75,62,l),
+(191,-5,l),
+(454,-5,l),
+(570,62,l),
+(570,351,l),
+(454,418,l),
+(225,418,l),
+(225,585,l),
+(430,585,l),
+(430,505,l),
+(570,505,l),
+(570,638,l),
+(454,705,l),
+(201,705,l),
+(85,638,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(422,785,l),
+(522,933,l),
+(407,933,l),
+(327,853,l),
+(246,933,l),
+(131,933,l),
+(232,785,l)
+);
+}
+);
+width = 655;
+}
+);
+unicode = 352;
+},
+{
+category = Letter;
+glyphname = scaron;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(471,246,l),
+(355,313,l),
+(212,313,l),
+(212,383,l),
+(461,383,l),
+(461,500,l),
+(191,500,l),
+(75,433,l),
+(75,261,l),
+(191,194,l),
+(334,194,l),
+(334,117,l),
+(75,117,l),
+(75,0,l),
+(355,0,l),
+(471,67,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(377,590,l),
+(477,738,l),
+(362,738,l),
+(282,658,l),
+(201,738,l),
+(86,738,l),
+(187,590,l)
+);
+}
+);
+width = 552;
+}
+);
+unicode = 353;
+},
+{
+category = Letter;
+glyphname = Ydieresis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(240,0,l),
+(380,0,l),
+(380,298,l),
+(606,700,l),
+(454,700,l),
+(311,438,l),
+(309,438,l),
+(167,700,l),
+(15,700,l),
+(240,299,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,785,l),
+(263,785,l),
+(263,920,l),
+(128,920,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(367,785,l),
+(502,785,l),
+(502,920,l),
+(367,920,l)
+);
+}
+);
+width = 621;
+}
+);
+unicode = 376;
+},
+{
+category = Letter;
+glyphname = Zcaron;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,580,l),
+(360,580,l),
+(360,578,l),
+(45,90,l),
+(45,0,l),
+(540,0,l),
+(540,120,l),
+(225,120,l),
+(225,122,l),
+(540,610,l),
+(540,700,l),
+(65,700,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(412,785,l),
+(512,933,l),
+(397,933,l),
+(317,853,l),
+(236,933,l),
+(121,933,l),
+(222,785,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 381;
+},
+{
+category = Letter;
+glyphname = zcaron;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,96,l),
+(35,0,l),
+(431,0,l),
+(431,117,l),
+(215,117,l),
+(215,119,l),
+(431,404,l),
+(431,500,l),
+(45,500,l),
+(45,383,l),
+(251,383,l),
+(251,381,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(341,590,l),
+(441,738,l),
+(326,738,l),
+(246,658,l),
+(165,738,l),
+(50,738,l),
+(151,590,l)
+);
+}
+);
+width = 476;
+}
+);
+unicode = 382;
+},
+{
+category = Letter;
+glyphname = florin;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(127,-82,l),
+(17,-82,l),
+(17,-199,l),
+(148,-199,l),
+(264,-132,l),
+(264,383,l),
+(374,383,l),
+(374,500,l),
+(264,500,l),
+(264,613,l),
+(374,613,l),
+(374,730,l),
+(243,730,l),
+(127,663,l),
+(127,500,l),
+(35,500,l),
+(35,383,l),
+(127,383,l)
+);
+}
+);
+width = 409;
+}
+);
+unicode = 402;
+},
+{
+category = Letter;
+glyphname = circumflex;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,738,l),
+(70,590,l),
+(185,590,l),
+(265,670,l),
+(346,590,l),
+(461,590,l),
+(360,738,l)
+);
+}
+);
+width = 531;
+}
+);
+unicode = 710;
+},
+{
+category = Letter;
+glyphname = caron;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(362,590,l),
+(462,738,l),
+(347,738,l),
+(267,658,l),
+(186,738,l),
+(71,738,l),
+(172,590,l)
+);
+}
+);
+width = 531;
+}
+);
+unicode = 711;
+},
+{
+category = Letter;
+glyphname = breve;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(322,756,l),
+(322,665,l),
+(207,665,l),
+(207,756,l),
+(102,756,l),
+(102,627,l),
+(184,580,l),
+(345,580,l),
+(427,627,l),
+(427,756,l)
+);
+}
+);
+width = 529;
+}
+);
+unicode = 728;
+},
+{
+category = Letter;
+glyphname = dotaccent;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,591,l),
+(270,591,l),
+(270,781,l),
+(80,781,l)
+);
+}
+);
+width = 350;
+}
+);
+unicode = 729;
+},
+{
+category = Letter;
+glyphname = ring;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(427,617,l),
+(427,826,l),
+(345,873,l),
+(184,873,l),
+(102,826,l),
+(102,617,l),
+(184,570,l),
+(345,570,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(207,778,l),
+(322,778,l),
+(322,665,l),
+(207,665,l)
+);
+}
+);
+width = 529;
+}
+);
+unicode = 730;
+},
+{
+category = Letter;
+glyphname = ogonek;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(267,0,l),
+(160,0,l),
+(160,-146,l),
+(276,-213,l),
+(360,-213,l),
+(360,-116,l),
+(267,-116,l)
+);
+}
+);
+width = 520;
+}
+);
+unicode = 731;
+},
+{
+category = Letter;
+glyphname = tilde;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(172,667,l),
+(314,585,l),
+(342,585,l),
+(436,640,l),
+(436,764,l),
+(338,764,l),
+(338,682,l),
+(334,682,l),
+(192,764,l),
+(164,764,l),
+(70,709,l),
+(70,585,l),
+(168,585,l),
+(168,667,l)
+);
+}
+);
+width = 506;
+}
+);
+unicode = 732;
+},
+{
+category = Letter;
+glyphname = hungarumlaut;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(66,590,l),
+(186,590,l),
+(330,718,l),
+(160,718,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(285,590,l),
+(405,590,l),
+(549,718,l),
+(379,718,l)
+);
+}
+);
+width = 580;
+}
+);
+unicode = 733;
+},
+{
+category = Letter;
+glyphname = endash;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,198,l),
+(641,198,l),
+(641,325,l),
+(65,325,l)
+);
+}
+);
+width = 706;
+}
+);
+unicode = 8211;
+},
+{
+category = Letter;
+glyphname = emdash;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,198,l),
+(919,198,l),
+(919,325,l),
+(65,325,l)
+);
+}
+);
+width = 984;
+}
+);
+unicode = 8212;
+},
+{
+category = Letter;
+glyphname = quoteleft;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(275,730,l),
+(193,730,l),
+(85,422,l),
+(85,340,l),
+(275,340,l)
+);
+}
+);
+width = 360;
+}
+);
+unicode = 8216;
+},
+{
+category = Letter;
+glyphname = quoteright;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,340,l),
+(167,340,l),
+(275,648,l),
+(275,730,l),
+(85,730,l)
+);
+}
+);
+width = 360;
+}
+);
+unicode = 8217;
+},
+{
+category = Letter;
+glyphname = quotesinglbase;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,-200,l),
+(177,-200,l),
+(285,108,l),
+(285,190,l),
+(95,190,l)
+);
+}
+);
+width = 380;
+}
+);
+unicode = 8218;
+},
+{
+category = Letter;
+glyphname = quotedblleft;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(555,730,l),
+(473,730,l),
+(365,422,l),
+(365,340,l),
+(555,340,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(275,730,l),
+(193,730,l),
+(85,422,l),
+(85,340,l),
+(275,340,l)
+);
+}
+);
+width = 640;
+}
+);
+unicode = 8220;
+},
+{
+category = Letter;
+glyphname = quotedblright;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,340,l),
+(167,340,l),
+(275,648,l),
+(275,730,l),
+(85,730,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(365,340,l),
+(447,340,l),
+(555,648,l),
+(555,730,l),
+(365,730,l)
+);
+}
+);
+width = 640;
+}
+);
+unicode = 8221;
+},
+{
+category = Letter;
+glyphname = quotedblbase;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,-200,l),
+(177,-200,l),
+(285,108,l),
+(285,190,l),
+(95,190,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(375,-200,l),
+(457,-200,l),
+(565,108,l),
+(565,190,l),
+(375,190,l)
+);
+}
+);
+width = 660;
+}
+);
+unicode = 8222;
+},
+{
+category = Letter;
+glyphname = dagger;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(359,424,l),
+(558,414,l),
+(558,539,l),
+(359,529,l),
+(369,731,l),
+(244,731,l),
+(254,529,l),
+(55,539,l),
+(55,414,l),
+(254,424,l),
+(244,-200,l),
+(369,-200,l)
+);
+}
+);
+width = 613;
+}
+);
+unicode = 8224;
+},
+{
+category = Letter;
+glyphname = daggerdbl;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(366,266,l),
+(359,424,l),
+(558,414,l),
+(558,539,l),
+(359,529,l),
+(369,731,l),
+(244,731,l),
+(254,529,l),
+(55,539,l),
+(55,414,l),
+(254,424,l),
+(247,266,l),
+(254,107,l),
+(55,117,l),
+(55,-8,l),
+(254,2,l),
+(244,-200,l),
+(369,-200,l),
+(359,2,l),
+(558,-8,l),
+(558,117,l),
+(359,107,l)
+);
+}
+);
+width = 613;
+}
+);
+unicode = 8225;
+},
+{
+category = Letter;
+glyphname = bullet;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(475,224,l),
+(475,470,l),
+(359,537,l),
+(211,537,l),
+(95,470,l),
+(95,224,l),
+(211,157,l),
+(359,157,l)
+);
+}
+);
+width = 570;
+}
+);
+unicode = 8226;
+},
+{
+category = Letter;
+glyphname = ellipsis;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,0,l),
+(285,0,l),
+(285,190,l),
+(95,190,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(426,0,l),
+(616,0,l),
+(616,190,l),
+(426,190,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(757,0,l),
+(947,0,l),
+(947,190,l),
+(757,190,l)
+);
+}
+);
+width = 1042;
+}
+);
+unicode = 8230;
+},
+{
+category = Letter;
+glyphname = perthousand;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(440,424,l),
+(440,643,l),
+(324,710,l),
+(191,710,l),
+(75,643,l),
+(75,424,l),
+(191,357,l),
+(324,357,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(196,599,l),
+(319,599,l),
+(319,468,l),
+(196,468,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(692,710,l),
+(179,-10,l),
+(309,-10,l),
+(822,710,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(561,276,l),
+(561,57,l),
+(677,-10,l),
+(810,-10,l),
+(926,57,l),
+(926,276,l),
+(810,343,l),
+(677,343,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(805,101,l),
+(682,101,l),
+(682,232,l),
+(805,232,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(996,276,l),
+(996,57,l),
+(1112,-10,l),
+(1245,-10,l),
+(1361,57,l),
+(1361,276,l),
+(1245,343,l),
+(1112,343,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1240,101,l),
+(1117,101,l),
+(1117,232,l),
+(1240,232,l)
+);
+}
+);
+width = 1406;
+}
+);
+unicode = 8240;
+},
+{
+category = Letter;
+glyphname = guilsinglleft;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(345,137,l),
+(182,251,l),
+(182,252,l),
+(345,365,l),
+(345,502,l),
+(85,312,l),
+(85,190,l),
+(345,0,l)
+);
+}
+);
+width = 430;
+}
+);
+unicode = 8249;
+},
+{
+category = Letter;
+glyphname = guilsinglright;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(345,190,l),
+(345,312,l),
+(85,502,l),
+(85,365,l),
+(248,252,l),
+(248,251,l),
+(85,137,l)
+);
+}
+);
+width = 430;
+}
+);
+unicode = 8250;
+},
+{
+category = Letter;
+glyphname = fraction;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(518,710,l),
+(5,-10,l),
+(135,-10,l),
+(648,710,l)
+);
+}
+);
+width = 653;
+}
+);
+unicode = 8260;
+},
+{
+category = Letter;
+glyphname = Euro;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(455,471,l),
+(242,471,l),
+(242,585,l),
+(469,585,l),
+(469,495,l),
+(609,495,l),
+(609,638,l),
+(493,705,l),
+(218,705,l),
+(102,638,l),
+(102,471,l),
+(25,471,l),
+(25,377,l),
+(102,377,l),
+(102,323,l),
+(25,323,l),
+(25,229,l),
+(102,229,l),
+(102,62,l),
+(218,-5,l),
+(493,-5,l),
+(609,62,l),
+(609,205,l),
+(469,205,l),
+(469,115,l),
+(242,115,l),
+(242,229,l),
+(316,229,l),
+(370,323,l),
+(242,323,l),
+(242,377,l),
+(401,377,l)
+);
+}
+);
+width = 684;
+}
+);
+unicode = 8364;
+},
+{
+category = Letter;
+glyphname = trademark;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(678,326,l),
+(766,326,l),
+(766,700,l),
+(662,700,l),
+(572,469,l),
+(570,469,l),
+(478,700,l),
+(373,700,l),
+(373,326,l),
+(462,326,l),
+(462,497,l),
+(464,497,l),
+(531,326,l),
+(607,326,l),
+(676,497,l),
+(678,497,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(248,611,l),
+(340,611,l),
+(340,700,l),
+(65,700,l),
+(65,611,l),
+(158,611,l),
+(158,326,l),
+(248,326,l)
+);
+}
+);
+width = 851;
+}
+);
+unicode = 8482;
+},
+{
+category = Letter;
+glyphname = partialdiff;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(420,585,l),
+(420,374,l),
+(349,415,l),
+(201,415,l),
+(85,348,l),
+(85,62,l),
+(201,-5,l),
+(444,-5,l),
+(560,62,l),
+(560,638,l),
+(444,705,l),
+(201,705,l),
+(201,585,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(420,115,l),
+(225,115,l),
+(225,295,l),
+(420,295,l)
+);
+}
+);
+width = 645;
+}
+);
+unicode = 8706;
+},
+{
+category = Letter;
+glyphname = minus;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(565,327,l),
+(45,327,l),
+(45,193,l),
+(565,193,l)
+);
+}
+);
+width = 610;
+}
+);
+unicode = 8722;
+},
+{
+category = Letter;
+glyphname = infinity;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,398,l),
+(380,398,l),
+(380,223,l),
+(225,223,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(520,398,l),
+(675,398,l),
+(675,223,l),
+(520,223,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(815,170,l),
+(815,451,l),
+(699,518,l),
+(566,518,l),
+(450,451,l),
+(334,518,l),
+(201,518,l),
+(85,451,l),
+(85,170,l),
+(201,103,l),
+(334,103,l),
+(450,170,l),
+(566,103,l),
+(699,103,l)
+);
+}
+);
+width = 900;
+}
+);
+unicode = 8734;
+},
+{
+category = Letter;
+glyphname = approxequal;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(277,112,l),
+(418,30,l),
+(531,30,l),
+(647,97,l),
+(647,229,l),
+(530,229,l),
+(530,147,l),
+(455,147,l),
+(314,229,l),
+(201,229,l),
+(85,162,l),
+(85,30,l),
+(202,30,l),
+(202,112,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(277,348,l),
+(418,266,l),
+(531,266,l),
+(647,333,l),
+(647,465,l),
+(530,465,l),
+(530,383,l),
+(455,383,l),
+(314,465,l),
+(201,465,l),
+(85,398,l),
+(85,266,l),
+(202,266,l),
+(202,348,l)
+);
+}
+);
+width = 732;
+}
+);
+unicode = 8776;
+},
+{
+category = Letter;
+glyphname = notequal;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(605,426,l),
+(538,426,l),
+(605,511,l),
+(495,511,l),
+(428,426,l),
+(85,426,l),
+(85,302,l),
+(331,302,l),
+(249,198,l),
+(85,198,l),
+(85,74,l),
+(152,74,l),
+(85,-11,l),
+(195,-11,l),
+(262,74,l),
+(605,74,l),
+(605,198,l),
+(359,198,l),
+(441,302,l),
+(605,302,l)
+);
+}
+);
+width = 690;
+}
+);
+unicode = 8800;
+},
+{
+category = Letter;
+glyphname = lessequal;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(605,579,l),
+(85,449,l),
+(85,291,l),
+(605,161,l),
+(605,289,l),
+(248,369,l),
+(248,371,l),
+(605,451,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(605,124,l),
+(85,124,l),
+(85,0,l),
+(605,0,l)
+);
+}
+);
+width = 690;
+}
+);
+unicode = 8804;
+},
+{
+category = Letter;
+glyphname = greaterequal;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,451,l),
+(442,371,l),
+(442,369,l),
+(85,289,l),
+(85,161,l),
+(605,291,l),
+(605,449,l),
+(85,579,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(85,0,l),
+(605,0,l),
+(605,124,l),
+(85,124,l)
+);
+}
+);
+width = 690;
+}
+);
+unicode = 8805;
+},
+{
+category = Letter;
+glyphname = a.alt;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(383,112,l),
+(212,112,l),
+(212,388,l),
+(383,388,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(520,505,l),
+(454,505,l),
+(383,464,l),
+(312,505,l),
+(191,505,l),
+(75,438,l),
+(75,62,l),
+(191,-5,l),
+(312,-5,l),
+(383,36,l),
+(454,-5,l),
+(520,-5,l)
+);
+}
+);
+width = 595;
+}
+);
+unicode = 57345;
+},
+{
+category = Letter;
+glyphname = g.alt;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(530,-133,l),
+(530,505,l),
+(464,505,l),
+(393,464,l),
+(322,505,l),
+(191,505,l),
+(75,438,l),
+(75,82,l),
+(191,15,l),
+(322,15,l),
+(393,56,l),
+(393,-83,l),
+(142,-83,l),
+(142,-200,l),
+(414,-200,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(393,132,l),
+(212,132,l),
+(212,388,l),
+(393,388,l)
+);
+}
+);
+width = 605;
+}
+);
+unicode = 57346;
+},
+{
+category = Letter;
+glyphname = l.alt;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,0,l),
+(212,730,l),
+(75,730,l),
+(75,0,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 57347;
+},
+{
+category = Letter;
+glyphname = dotlessj;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,500,l),
+(75,500,l),
+(75,-83,l),
+(-25,-83,l),
+(-25,-200,l),
+(96,-200,l),
+(212,-133,l)
+);
+}
+);
+width = 287;
+}
+);
+unicode = 63166;
+},
+{
+category = Letter;
+glyphname = commaaccent;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(100,-367,l),
+(166,-367,l),
+(252,-121,l),
+(252,-55,l),
+(100,-55,l)
+);
+}
+);
+width = 352;
+}
+);
+unicode = 63171;
+},
+{
+category = Letter;
+glyphname = madslug;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(554,-9,o),
+(650,51,q),
+(648,53,l),
+(629,52,l),
+(580,52,o),
+(548,72.5,q),
+(516,93,o),
+(516,128.5,q),
+(516,164,o),
+(536,265,q),
+(545,307,o),
+(560,373,q),
+(575,439,o),
+(575,441,q),
+(579,449,o),
+(617.5,458,q),
+(656,467,o),
+(674,467,q),
+(692,467,o),
+(692,455,q),
+(692,454,o),
+(662.5,324,q),
+(633,194,o),
+(633,161,q),
+(633,110,o),
+(681,110,q),
+(729,110,o),
+(772.5,186.5,q),
+(816,263,o),
+(816,360,q),
+(816,514,o),
+(708.5,622,q),
+(601,730,o),
+(447,730,q),
+(340,730,o),
+(246,670,q),
+(248,667,l),
+(267,669,l),
+(316,669,o),
+(348,648.5,q),
+(380,628,o),
+(380,592.5,q),
+(380,557,o),
+(360,456,q),
+(351,414,o),
+(336,348,q),
+(321,282,o),
+(321,280,q),
+(317,272,o),
+(278.5,263,q),
+(240,254,o),
+(222,254,q),
+(204,254,o),
+(204,265,q),
+(204,267,o),
+(233.5,397,q),
+(263,527,o),
+(263,560,q),
+(263,611,o),
+(215,611,q),
+(167,611,o),
+(123.5,534.5,q),
+(80,458,o),
+(80,361,q),
+(80,207,o),
+(187.5,99,q),
+(295,-9,o),
+(447,-9,q)
+);
+},
+{
+closed = 1;
+nodes = (
+(489,287,o),
+(476,234,q),
+(463,224,o),
+(430,216.5,q),
+(397,209,o),
+(380,209,q),
+(363,209,o),
+(363,218,q),
+(363,227,o),
+(385,330.5,q),
+(407,434,o),
+(420,487,q),
+(433,497,o),
+(465.5,504,q),
+(498,511,o),
+(515.5,511,q),
+(533,511,o),
+(533,502.5,q),
+(533,494,o),
+(511,390.5,q)
+);
+}
+);
+width = 896;
+}
+);
+unicode = 63488;
+},
+{
+category = Letter;
+glyphname = apple;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,235,o),
+(154,107,q),
+(227,-23,o),
+(304,-23,q),
+(328,-23,o),
+(370,-6,q),
+(412,11,o),
+(443.5,11,q),
+(475,11,o),
+(518,-5,q),
+(561,-21,o),
+(587,-21,q),
+(651,-21,o),
+(716,77,q),
+(757,138,o),
+(778,202,q),
+(732,216,o),
+(698,265,q),
+(664,314,o),
+(664,371.5,q),
+(664,429,o),
+(686.5,465,q),
+(709,501,o),
+(754,540,q),
+(732,567,o),
+(702,590,q),
+(655,622,o),
+(595,622,q),
+(559,622,o),
+(508,605,q),
+(457,588,o),
+(438.5,588,q),
+(420,588,o),
+(367,603,q),
+(314,618,o),
+(279,618,q),
+(187,618,o),
+(133.5,542.5,q),
+(80,467,o),
+(80,351,q)
+);
+},
+{
+closed = 1;
+nodes = (
+(589,713,o),
+(589,790,q),
+(589,802,o),
+(586,811,q),
+(424,773,o),
+(422,608,q),
+(465,612,o),
+(484.5,620,q),
+(504,628,o),
+(528,652,q)
+);
+}
+);
+width = 858;
+}
+);
+unicode = 63743;
+},
+{
+category = Letter;
+glyphname = fi;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(35,383,l),
+(127,383,l),
+(127,0,l),
+(264,0,l),
+(264,383,l),
+(404,383,l),
+(404,500,l),
+(264,500,l),
+(264,613,l),
+(626,613,l),
+(626,730,l),
+(243,730,l),
+(127,663,l),
+(127,500,l),
+(35,500,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(621,500,l),
+(484,500,l),
+(484,0,l),
+(621,0,l)
+);
+}
+);
+width = 696;
+}
+);
+unicode = 64257;
+},
+{
+category = Letter;
+glyphname = fl;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(600,0,l),
+(721,0,l),
+(721,117,l),
+(621,117,l),
+(621,730,l),
+(243,730,l),
+(127,663,l),
+(127,500,l),
+(35,500,l),
+(35,383,l),
+(127,383,l),
+(127,0,l),
+(264,0,l),
+(264,383,l),
+(404,383,l),
+(404,500,l),
+(264,500,l),
+(264,613,l),
+(484,613,l),
+(484,67,l)
+);
+}
+);
+width = 736;
+}
+);
+unicode = 64258;
+},
+{
+category = Letter;
+glyphname = ffi;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(264,383,l),
+(516,383,l),
+(516,0,l),
+(653,0,l),
+(653,383,l),
+(813,383,l),
+(813,500,l),
+(653,500,l),
+(653,613,l),
+(1035,613,l),
+(1035,730,l),
+(632,730,l),
+(516,663,l),
+(516,500,l),
+(264,500,l),
+(264,613,l),
+(424,613,l),
+(424,730,l),
+(243,730,l),
+(127,663,l),
+(127,500,l),
+(35,500,l),
+(35,383,l),
+(127,383,l),
+(127,0,l),
+(264,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1030,500,l),
+(893,500,l),
+(893,0,l),
+(1030,0,l)
+);
+}
+);
+width = 1105;
+}
+);
+unicode = 64259;
+},
+{
+category = Letter;
+glyphname = ffl;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1009,0,l),
+(1130,0,l),
+(1130,117,l),
+(1030,117,l),
+(1030,730,l),
+(652,730,l),
+(536,663,l),
+(536,500,l),
+(264,500,l),
+(264,613,l),
+(434,613,l),
+(434,730,l),
+(243,730,l),
+(127,663,l),
+(127,500,l),
+(35,500,l),
+(35,383,l),
+(127,383,l),
+(127,0,l),
+(264,0,l),
+(264,383,l),
+(536,383,l),
+(536,0,l),
+(673,0,l),
+(673,383,l),
+(803,383,l),
+(803,500,l),
+(673,500,l),
+(673,613,l),
+(893,613,l),
+(893,67,l)
+);
+}
+);
+width = 1145;
+}
+);
+unicode = 64260;
+},
+{
+category = Letter;
+glyphname = st;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(471,246,l),
+(355,313,l),
+(212,313,l),
+(212,383,l),
+(638,383,l),
+(638,67,l),
+(754,0,l),
+(885,0,l),
+(885,117,l),
+(775,117,l),
+(775,383,l),
+(885,383,l),
+(885,500,l),
+(775,500,l),
+(775,663,l),
+(638,584,l),
+(638,500,l),
+(191,500,l),
+(75,433,l),
+(75,261,l),
+(191,194,l),
+(334,194,l),
+(334,117,l),
+(75,117,l),
+(75,0,l),
+(355,0,l),
+(471,67,l)
+);
+}
+);
+width = 940;
+}
+);
+unicode = 64262;
+},
+{
+category = Letter;
+glyphname = fj;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(621,500,l),
+(484,500,l),
+(484,-83,l),
+(384,-83,l),
+(384,-200,l),
+(505,-200,l),
+(621,-133,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(35,383,l),
+(127,383,l),
+(127,0,l),
+(264,0,l),
+(264,383,l),
+(374,383,l),
+(374,500,l),
+(264,500,l),
+(264,613,l),
+(626,613,l),
+(626,730,l),
+(243,730,l),
+(127,663,l),
+(127,500,l),
+(35,500,l)
+);
+}
+);
+width = 696;
+}
+);
+unicode = 64263;
+},
+{
+category = Letter;
+glyphname = ct;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,383,l),
+(606,383,l),
+(606,67,l),
+(722,0,l),
+(853,0,l),
+(853,117,l),
+(743,117,l),
+(743,383,l),
+(853,383,l),
+(853,500,l),
+(743,500,l),
+(743,663,l),
+(606,584,l),
+(606,500,l),
+(191,500,l),
+(75,433,l),
+(75,67,l),
+(191,0,l),
+(460,0,l),
+(460,117,l),
+(212,117,l)
+);
+}
+);
+width = 908;
+}
+);
+unicode = 64264;
+},
+{
+category = Letter;
+glyphname = grave.cap;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(335,908,l),
+(165,908,l),
+(309,780,l),
+(429,780,l)
+);
+}
+);
+width = 500;
+}
+);
+},
+{
+category = Letter;
+glyphname = acute.cap;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,780,l),
+(285,780,l),
+(429,908,l),
+(259,908,l)
+);
+}
+);
+width = 500;
+}
+);
+},
+{
+category = Letter;
+glyphname = caron.cap;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(362,780,l),
+(462,928,l),
+(347,928,l),
+(267,848,l),
+(186,928,l),
+(71,928,l),
+(172,780,l)
+);
+}
+);
+width = 531;
+}
+);
+},
+{
+category = Letter;
+glyphname = circumflex.cap;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,928,l),
+(70,780,l),
+(185,780,l),
+(265,860,l),
+(346,780,l),
+(461,780,l),
+(360,928,l)
+);
+}
+);
+width = 531;
+}
+);
+},
+{
+category = Letter;
+glyphname = ring.cap;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(427,807,l),
+(427,1016,l),
+(345,1063,l),
+(184,1063,l),
+(102,1016,l),
+(102,807,l),
+(184,760,l),
+(345,760,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(207,968,l),
+(322,968,l),
+(322,855,l),
+(207,855,l)
+);
+}
+);
+width = 529;
+}
+);
+},
+{
+category = Letter;
+glyphname = dieresis.cap;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,785,l),
+(215,785,l),
+(215,920,l),
+(80,920,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(319,785,l),
+(454,785,l),
+(454,920,l),
+(319,920,l)
+);
+}
+);
+width = 544;
+}
+);
+},
+{
+category = Letter;
+glyphname = tilde.cap;
+layers = (
+{
+layerId = "babelfont/sfd/master/Regular";
+name = Fore;
+shapes = (
+{
+closed = 1;
+nodes = (
+(172,857,l),
+(314,775,l),
+(342,775,l),
+(436,830,l),
+(436,954,l),
+(338,954,l),
+(338,872,l),
+(334,872,l),
+(192,954,l),
+(164,954,l),
+(70,899,l),
+(70,775,l),
+(168,775,l),
+(168,857,l)
+);
+}
+);
+width = 506;
+}
+);
+}
+);
+instances = (
+{
+name = Bold;
+weightClass = 700;
+widthClass = 5;
+}
+);
+kerningLTR = {
+"babelfont/sfd/master/Regular" = {
+A = {
+T = -50;
+V = -50;
+W = -30;
+Y = -60;
+Yacute = -60;
+Ydieresis = -60;
+};
+Aacute = {
+T = -50;
+V = -50;
+W = -30;
+Y = -60;
+Yacute = -60;
+Ydieresis = -60;
+};
+Acircumflex = {
+T = -50;
+V = -50;
+W = -30;
+Y = -60;
+Yacute = -60;
+Ydieresis = -60;
+};
+Adieresis = {
+T = -50;
+V = -50;
+W = -30;
+Y = -60;
+Yacute = -60;
+Ydieresis = -60;
+};
+Agrave = {
+T = -50;
+V = -50;
+W = -30;
+Y = -60;
+Yacute = -60;
+Ydieresis = -60;
+};
+Aring = {
+T = -50;
+V = -50;
+W = -30;
+Y = -60;
+Yacute = -60;
+Ydieresis = -60;
+};
+Atilde = {
+T = -50;
+V = -50;
+W = -30;
+Y = -60;
+Yacute = -60;
+Ydieresis = -60;
+};
+F = {
+J = -80;
+};
+L = {
+T = -60;
+V = -40;
+W = -20;
+Y = -40;
+Yacute = -40;
+Ydieresis = -40;
+};
+T = {
+A = -50;
+Aacute = -50;
+Acircumflex = -50;
+Adieresis = -50;
+Agrave = -50;
+Aring = -50;
+Atilde = -50;
+J = -60;
+};
+V = {
+A = -50;
+Aacute = -50;
+Acircumflex = -50;
+Adieresis = -50;
+Agrave = -50;
+Aring = -50;
+Atilde = -50;
+};
+W = {
+A = -30;
+Aacute = -30;
+Acircumflex = -30;
+Adieresis = -30;
+Agrave = -30;
+Aring = -30;
+Atilde = -30;
+};
+Y = {
+A = -60;
+Aacute = -60;
+Acircumflex = -60;
+Adieresis = -60;
+Agrave = -60;
+Aring = -60;
+Atilde = -60;
+J = -80;
+};
+Yacute = {
+A = -60;
+Aacute = -60;
+Acircumflex = -60;
+Adieresis = -60;
+Agrave = -60;
+Aring = -60;
+Atilde = -60;
+J = -80;
+};
+Ydieresis = {
+A = -60;
+Aacute = -60;
+Acircumflex = -60;
+Adieresis = -60;
+Agrave = -60;
+Aring = -60;
+Atilde = -60;
+J = -80;
+};
+};
+};
+metrics = (
+{
+type = "italic angle";
+},
+{
+type = ascender;
+},
+{
+type = descender;
+},
+{
+type = "x-height";
+},
+{
+type = "cap height";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name \"Quantico\"";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Matt Desmond";
+}
+);
+},
+{
+key = designerURL;
+value = "http://www.madtype.com";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = MADtype;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.madtype.com";
+},
+{
+key = postscriptFullName;
+value = "Quantico-Bold";
+},
+{
+key = postscriptFontName;
+value = "Quantico-Bold";
+},
+{
+key = trademarks;
+values = (
+{
+language = dflt;
+value = "Quantico is a trademark of Matt Desmond.";
+}
+);
+},
+{
+key = uniqueID;
+value = "MADtype: Quantico Bold: 2011";
+},
+{
+key = vendorID;
+value = MADT;
+},
+{
+key = versionString;
+value = "Version 2.002";
+}
+);
+unitsPerEm = 1000;
+versionMajor = 2;
+versionMinor = 2;
+}

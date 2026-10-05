@@ -1,0 +1,9 @@
+buildVariable: false
+removeOutlineOverlaps: false
+noProductionNames: true
+autohintTTF: false
+sources:
+  - Quantico-Bold.glyphs
+  - Quantico-BoldItalic.glyphs
+  - Quantico-Italic.glyphs
+  - Quantico-Regular.glyphs
